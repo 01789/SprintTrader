@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: b444a7afbe493e5498a500e66c50b0ad
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - QuestStart: {fileID: 100002, guid: 58c999e2a631c2543844738e5697877b, type: 2}
+  - QuestEnd: {fileID: 100004, guid: 58c999e2a631c2543844738e5697877b, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

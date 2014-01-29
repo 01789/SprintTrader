@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: a5945880718f87242be7d1a91c3a1c65
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - PlayerShip: {fileID: 100000, guid: 571e35b6264768e4d88183f87a55b47c, type: 2}
+  - MapHandler: {fileID: 100002, guid: a7e235b7d9c9a444fb79da2d4fcd2ac7, type: 2}
+  - ShipHandler: {fileID: 100002, guid: 0293edf485e151546864888624997bae, type: 2}
+  - TravelHandler: {fileID: 100002, guid: c01e7c60b43d80e43b782ebe3cae5429, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

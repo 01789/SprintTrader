@@ -1,0 +1,40 @@
+///////////////
+////SYSTEMS////
+///////////////
+	Menu
+		Start
+		//Save Game
+	Money
+	Ship
+		Energy Allocation
+		Defenses
+		//Upgrades
+		//Weapons
+		Fuel
+	Cargo
+		Get jobs
+		Load cargo (apply effects)
+		Deliver cargo
+	//Store
+	//Fights
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+//////////////////
+////IDEA NOTES////
+//////////////////
+- Planets should rotate around sun. If you're trying to catch one it will respond to the distance you move your mouse from your current position. i.e. If I am docked on Mars trying to reach Earth when I am planning my route I will move my mouse out into the solar system, as I move outwards the planets will rotate, changing my start position and my end position.
+- In the systems map screen systems with open contracts will glow a color. Systems with active contracts will glow another color
+- Given the option to start in several different star systems with different characteristics (i.e. choice 1: Small system but with heavy trade in minerals. High risk missions to carry gems illegally, Choice 2: larger system with greater distances between planets, cargo tends to be fairly consistent and pays relatively well)

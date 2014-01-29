@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c22e6b6799e571a41a10c83cf6c8415c
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - CurrentLocation: {fileID: 2100000, guid: 4729b717619e7c94a8b8e77ed60b53d7, type: 2}
+  - OpenLocation: {fileID: 2100000, guid: 590752501a3b413499a354a4ca066b26, type: 2}
+  - ClosedLocation: {fileID: 2100000, guid: defc48456b36d944bb5079898d95a86f, type: 2}
+  - NavLine: {fileID: 12000000, guid: a7e235b7d9c9a444fb79da2d4fcd2ac7, type: 2}
+  - DistText: {fileID: 13200000, guid: a7e235b7d9c9a444fb79da2d4fcd2ac7, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

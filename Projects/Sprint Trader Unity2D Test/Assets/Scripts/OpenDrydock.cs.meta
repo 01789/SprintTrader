@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 321ad7ccb2e36c149923baf50474b3a1
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - DryDockInterface: {fileID: 100000, guid: 50ee5ae102b59f54795529b1883c987b, type: 2}
+  - Highlight: {fileID: 2100000, guid: 590752501a3b413499a354a4ca066b26, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

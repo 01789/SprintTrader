@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4083fecda54af904fbe750ce12261636
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Current: {instanceID: 0}
+  - Highlight: {fileID: 2100000, guid: 5c996168589a5a0498541cfe9a672893, type: 2}
+  - UnHighlight: {fileID: 2100000, guid: 3f9adfd2b1893ea4a9ceed102c819ee9, type: 2}
+  - Up: {instanceID: 0}
+  - Down: {instanceID: 0}
+  - PlanetCam: {instanceID: 0}
+  - MainCam: {fileID: 2000000, guid: a7e235b7d9c9a444fb79da2d4fcd2ac7, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

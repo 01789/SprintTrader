@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 504230c018571204d9efb5a3d1b9c0f1
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - navPoint: {fileID: 100000, guid: 9ad39f57c849cb746be7a634b08e9155, type: 2}
+  - StartPoint: {fileID: 100002, guid: 58c999e2a631c2543844738e5697877b, type: 2}
+  - EndPoint: {fileID: 100004, guid: 58c999e2a631c2543844738e5697877b, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

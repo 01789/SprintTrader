@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 8e06c4e5c56cb9d4dbcbce25eae70b6f
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Galaxy: {fileID: 100000, guid: 0b19803ecc870cb4ebd203000eafea60, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
