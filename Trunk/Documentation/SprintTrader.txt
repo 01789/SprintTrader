@@ -2,25 +2,9 @@
 ////SPRINT TRADER: THE GAME////
 ///////////////////////////////
 
-Get cargo - some might be heavy, some might be light, some might respond to various stimuli in the environment
-
-Plan a route (nebulas, asteroid belts, planets, suns)
-
-Execute route
-
-Manipulate power between shields, thrusters and engines
-
-Speed increases over time as you fire your engines in a straight line
-
-Bars or % for power distribution?
-
-1-5 minute playtime
-
-Click to make waypoint or drag with finger? Both?
-
 _______________
 //CARGO TYPES//
-“””””””””””””””
+"""""""""""""""
 Merchants
  - Food
  - Home appliances
@@ -46,7 +30,7 @@ Volatile Cargo
  - 
 __________________
 //SHIP VARIABLES//
-“”””””””””””””””””
+""""""""""""""""""
 Size
  - Small
  - Medium
@@ -67,7 +51,7 @@ Cargo Space
 Slots
 _________________
 //UPGRADE TYPES//
-“””””””””””””””””
+"""""""""""""""""
 Shields
   - Debris Shields [Basic]
   - Navigation Shields [Allows for traversal of Asteroid Fields and Debris Fields]
@@ -90,7 +74,7 @@ Other
   - Heat Sink
 __________________
 //OBSTACLE TYPES//
-“”””””””””””””””””
+""""""""""""""""""
 Asteroid Field
 
 Comet
