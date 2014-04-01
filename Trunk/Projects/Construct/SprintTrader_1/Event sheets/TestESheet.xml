@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>TestESheet</name>
+    <events>
+        <event-block sid="8038031244728474">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="3590079612509269" type="System" />
+                <condition id="-10" name="For" sid="3428358536214467" type="System">
+                    <param id="0" name="Name">&quot;NumObstacles&quot;</param>
+                    <param id="1" name="Start index">1</param>
+                    <param id="2" name="End index">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="948823969170911" type="System">
+                    <param id="0" name="Object to create">Obstacle</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">random(125, 896)</param>
+                    <param id="3" name="Y">random(0, 576)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4809209512724538">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="1636746735751497" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="9292725151758941" type="End" />
+                <action id="-9" name="Destroy" sid="133104792603095" type="Route" />
+                <action id="-9" name="Destroy" sid="89669702803203" type="Line" />
+                <action id="-9" name="Destroy" sid="3195044897394878" type="Ship" />
+                <action id="-9" name="Destroy" sid="3839267419982821" type="Start" />
+            </actions>
+        </event-block>
+        <event-block sid="2481641470386401">
+            <conditions>
+                <condition id="0" name="On any touch start" sid="8057343117990142" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="2474919246746813" type="System">
+                    <param id="0" name="Object to create">Start</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">Touch.X</param>
+                    <param id="3" name="Y">Touch.Y</param>
+                </action>
+                <action id="5" name="Push" sid="7698023595769682" type="NavPoints_Start">
+                    <param id="0" name="Where">0</param>
+                    <param id="1" name="Value">1</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="9168577675052676">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="2058564312323861" type="NavPoints_Start">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="7514666201411934" type="System">
+                            <param id="0" name="Object to create">Line</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">Origin.X</param>
+                            <param id="3" name="Y">Origin.Y</param>
+                        </action>
+                        <action id="-22" name="Set angle toward position" sid="2913260324034728" type="Line">
+                            <param id="0" name="X">Start.X</param>
+                            <param id="1" name="Y">Start.Y</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="6103326617846796" type="Line">
+                            <param id="0" name="Width">distance(Origin.X, Origin.Y, Start.X, Start.Y)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="9879614353878309">
+            <conditions>
+                <condition id="2" name="Is in touch" sid="9587449166328132" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="262275155941148" type="System">
+                    <param id="0" name="Object to create">Route</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">Touch.X</param>
+                    <param id="3" name="Y">Touch.Y</param>
+                </action>
+                <action id="5" name="Push" sid="6526310141713525" type="NavPoints_Route">
+                    <param id="0" name="Where">0</param>
+                    <param id="1" name="Value">1</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8978239011765498">
+            <conditions>
+                <condition id="1" name="On any touch end" sid="2037072398732089" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="8067057871413962" type="System">
+                    <param id="0" name="Object to create">End</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">Touch.X</param>
+                    <param id="3" name="Y">Touch.Y</param>
+                </action>
+                <action id="5" name="Push" sid="1378315471765252" type="NavPoints_End">
+                    <param id="0" name="Where">0</param>
+                    <param id="1" name="Value">1</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2975814785987348">
+            <conditions>
+                <condition id="0" name="On clicked" sid="1080286372202874" type="Done" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="341988509687416" type="System">
+                    <param id="0" name="Object to create">Ship</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">Origin.X</param>
+                    <param id="3" name="Y">Origin.Y</param>
+                </action>
+                <action id="-22" name="Set angle toward position" sid="5148641091399598" type="Ship">
+                    <param id="0" name="X">Start.X</param>
+                    <param id="1" name="Y">Start.Y</param>
+                </action>
+                <action id="-3" name="Create object" sid="996612763817592" type="System">
+                    <param id="0" name="Object to create">Line</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">End.X</param>
+                    <param id="3" name="Y">End.Y</param>
+                </action>
+                <action id="-22" name="Set angle toward position" sid="2865606315938626" type="Line">
+                    <param id="0" name="X">Destination.X</param>
+                    <param id="1" name="Y">Destination.Y</param>
+                </action>
+                <action id="-5" name="Set width" sid="5646852927688341" type="Line">
+                    <param id="0" name="Width">distance(End.X,End.Y,Destination.X,Destination.Y)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4460312913580802">
+            <conditions>
+                <condition id="0" name="On clicked" sid="6847388644034046" type="Reset" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="8985427439572076" type="Obstacle" />
+                <action id="-9" name="Destroy" sid="5484273457816708" type="End" />
+                <action id="-9" name="Destroy" sid="3189338608117546" type="Route" />
+                <action id="-9" name="Destroy" sid="8298553507529597" type="Line" />
+                <action id="-9" name="Destroy" sid="7588572256059626" type="Ship" />
+                <action id="-9" name="Destroy" sid="4751597834664322" type="Start" />
+                <action id="0" name="Clear" sid="4268586122860785" type="NavPoints_Start" />
+                <action id="0" name="Clear" sid="7622017946789521" type="NavPoints_Route" />
+                <action id="0" name="Clear" sid="8259768448800067" type="NavPoints_End" />
+            </actions>
+            <sub-events>
+                <event-block sid="2282664560216004">
+                    <conditions>
+                        <condition id="-10" name="For" sid="6644141938322573" type="System">
+                            <param id="0" name="Name">&quot;NumObstacles&quot;</param>
+                            <param id="1" name="Start index">1</param>
+                            <param id="2" name="End index">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="6586685174951031" type="System">
+                            <param id="0" name="Object to create">Obstacle</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">random(125, 771)</param>
+                            <param id="3" name="Y">random(0, 576)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="7326950436761773">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="5598090568420145" type="Ship">
+                    <param id="0" name="Object">Obstacle</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4104855210033753" type="Ship" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>SprintTrader_1</name>
+    <description></description>
+    <version>1.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <app-id></app-id>
+    <unique-id>3k8y8jenijj4j</unique-id>
+    <saved-with-version>13200</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Pathfinding" version="1">Pathfinding</behavior>
+        <behavior author="Scirra" id="Persist" version="1">Persist</behavior>
+        <behavior author="Scirra" id="Car" version="1">Car</behavior>
+        <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>960</width>
+        <height>640</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">No</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Hide address bar">Yes</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use iOS retina display">All devices</prop>
+    </configuration-settings>
+    <object-folder expanded="1">
+        <object-type name="Touch" sid="5360238741765463">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Audio" sid="432376389717995">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="End" sid="7654310430580286">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="WaypointNumber" sid="2783513904319542" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Persist" sid="9205372230858554">
+                    <behavior id="Persist" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2607034673988427" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Route" sid="6050611004572697">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8624421339950824" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Line" sid="3712365131641886">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2153789849716014" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.75" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Ship" sid="7497734900307642">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pathfinding" sid="7920860972731577">
+                    <behavior id="Pathfinding" />
+                </behavior-type>
+                <behavior-type name="CustomMovement" sid="5436643362150248">
+                    <behavior id="custom" />
+                </behavior-type>
+                <behavior-type name="Car" sid="8318588444886861">
+                    <behavior id="Car" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3012010176228934" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501124">
+                        <collision-poly>
+                            <point x="0.818584" y="0.276405" />
+                            <point x="0.99705" y="0.498876" />
+                            <point x="0.814159" y="0.716854" />
+                            <point x="0.5" y="0.94382" />
+                            <point x="0.159292" y="0.757303" />
+                            <point x="0.314159" y="0.498876" />
+                            <point x="0.175516" y="0.267416" />
+                            <point x="0.5" y="0.0741573" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Done" sid="7580793256399247">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Reset" sid="5752920825562162">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Start" sid="9133286178282011">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="WaypointNumber" sid="3248362965076521" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Persist" sid="1016674975473679">
+                    <behavior id="Persist" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5430068198194531" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="NavPoints_Start" sid="6513990366886818">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type global="1" name="NavPoints_End" sid="9691613706140006">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type global="1" name="NavPoints_Route" sid="8365582245716748">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Origin" sid="6752864542705354">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="WaypointNumber" sid="237135501447032" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Persist" sid="2783437411595812">
+                    <behavior id="Persist" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="591900345099302" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Obstacle" sid="4770366535072353">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="107546963946183">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8636123002339954" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Destination" sid="2741032692179575">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="WaypointNumber" sid="2291511698544424" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Persist" sid="6313170712604556">
+                    <behavior id="Persist" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4493341927419895" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder expanded="1">
+        <layout>TestLayout.xml</layout>
+    </layout-folder>
+    <event-folder expanded="1">
+        <event-sheet>TestESheet.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="1">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="3">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+                <speed-of-sound>5000</speed-of-sound>
+                <doppler-factor>1</doppler-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder expanded="1" />
+    <music-folder expanded="1" />
+    <files-folder expanded="1" />
+</c2project>

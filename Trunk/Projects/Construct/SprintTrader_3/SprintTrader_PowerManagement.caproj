@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>SprintTrader_PowerManagement</name>
+    <description>Test of the Route Planner mechanic for Sprint Trader.</description>
+    <version>1.0</version>
+    <author>AJ Twombly</author>
+    <author-email>AJTwombly@aol.com</author-email>
+    <author-website>www.ajtwombly.com</author-website>
+    <app-id></app-id>
+    <unique-id>3k8y8jenijj4j</unique-id>
+    <saved-with-version>13200</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="Car" version="1">Car</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>960</width>
+        <height>640</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">No</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Hide address bar">Yes</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use iOS retina display">All devices</prop>
+    </configuration-settings>
+    <object-folder expanded="1">
+        <object-type name="Touch" sid="5360238741765463">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Ship" sid="7497734900307642">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Car" sid="9551966357183793">
+                    <behavior id="Car" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="298068052729039">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3012010176228934" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501124">
+                        <collision-poly>
+                            <point x="0.818584" y="0.276405" />
+                            <point x="0.99705" y="0.498876" />
+                            <point x="0.814159" y="0.716854" />
+                            <point x="0.5" y="0.94382" />
+                            <point x="0.159292" y="0.757303" />
+                            <point x="0.314159" y="0.498876" />
+                            <point x="0.175516" y="0.267416" />
+                            <point x="0.5" y="0.0741573" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Contracts" sid="6051293661975249">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7230677591399577" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ShipDestroy" sid="2076287520466604">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="Asteroids" sid="4551161592736749">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6009802883896372" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Titles" sid="8124899022343603">
+            <plugin id="TextBox" />
+            <behaviors>
+                <behavior-type name="Pin" sid="573089649088009">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Particles" sid="2819096433389324">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="TotalPower" sid="7101804100191386">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="4098075830121698">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="ShieldsPower" sid="3492138385707677">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="8865834575383425">
+                    <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="6714523830427238">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="EnginesPower" sid="4566804730192846">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="5610324743279595">
+                    <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="2643409176440427">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="ShieldsAdd" sid="3913227039344206">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="7241480476062709">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8267037061003995" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.42" y="0.42" />
+                            <point x="0.5" y="0" />
+                            <point x="0.58" y="0.42" />
+                            <point x="1" y="0.5" />
+                            <point x="0.58" y="0.58" />
+                            <point x="0.5" y="1" />
+                            <point x="0.42" y="0.58" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ShieldsSub" sid="2055131279900704">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="8144667357762387">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8673433486866092" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.42" y="0.42" />
+                            <point x="0.58" y="0.42" />
+                            <point x="1" y="0.5" />
+                            <point x="0.58" y="0.58" />
+                            <point x="0.42" y="0.58" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EnginesAdd" sid="1017721393832856">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="498585370889113">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1022705242198848" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.42" y="0.42" />
+                            <point x="0.5" y="0" />
+                            <point x="0.58" y="0.42" />
+                            <point x="1" y="0.5" />
+                            <point x="0.58" y="0.58" />
+                            <point x="0.5" y="1" />
+                            <point x="0.42" y="0.58" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EnginesSub" sid="5476740351842901">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="9852301348505202">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4133767329320237" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.42" y="0.42" />
+                            <point x="0.58" y="0.42" />
+                            <point x="1" y="0.5" />
+                            <point x="0.58" y="0.58" />
+                            <point x="0.42" y="0.58" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Shield" sid="3030449358849884">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="6153800982039165">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="960724307258367" speed="5">
+                    <frame duration="1" hotspotX="0.500527" hotspotY="0.500803">
+                        <collision-poly>
+                            <point x="0.122234" y="0.186196" />
+                            <point x="0.499473" y="0.00963082" />
+                            <point x="0.87882" y="0.184591" />
+                            <point x="0.996839" y="0.499197" />
+                            <point x="0.879874" y="0.817014" />
+                            <point x="0.499473" y="0.991974" />
+                            <point x="0.122234" y="0.813804" />
+                            <point x="0.00632244" y="0.499197" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder expanded="1">
+        <layout>TestLayout.xml</layout>
+    </layout-folder>
+    <event-folder expanded="1">
+        <event-sheet>TestESheet.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="1">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder expanded="1" />
+    <music-folder expanded="1" />
+    <files-folder expanded="1" />
+</c2project>

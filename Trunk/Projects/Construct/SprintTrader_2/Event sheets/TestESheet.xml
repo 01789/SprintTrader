@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>TestESheet</name>
+    <events>
+        <variable constant="0" name="ShipSpeed" sid="3529327473505141" static="0" type="number">360</variable>
+        <variable constant="0" name="NumAsteroids" sid="8936970513157196" static="0" type="number">2</variable>
+        <variable constant="0" name="NumContracts" sid="4073281549656132" static="0" type="number">3</variable>
+        <variable constant="0" name="NumObstacles" sid="4459054972295323" static="0" type="number">7</variable>
+        <variable constant="0" name="ContractsCollected" sid="1083747936002929" static="0" type="number">0</variable>
+        <variable constant="0" name="ShipFlight" sid="5174194630301009" static="0" type="number">0</variable>
+        <variable constant="0" name="NavPoints" sid="3949400320471151" static="0" type="number">-1</variable>
+        <event-block sid="3350688111479453">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="4323713334618834" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="3723308981311608" type="Text">
+                    <param id="0" name="Text">NavPoints</param>
+                </action>
+                <action id="0" name="Set text" sid="6176328135128022" type="Text2">
+                    <param id="0" name="Text">ShipFlight</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group collapsed="1" description="" sid="4153680308235381" title="Game Start">
+            <sub-events>
+                <event-block sid="8038031244728474">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="3590079612509269" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="1967828295384435" type="Asteroids" />
+                        <action id="-9" name="Destroy" sid="133104792603095" type="Route" />
+                        <action id="-9" name="Destroy" sid="89669702803203" type="Line" />
+                        <action id="-9" name="Destroy" sid="3195044897394878" type="Ship" />
+                        <action id="-9" name="Destroy" sid="2967350418529307" type="Contracts" />
+                        <action id="-9" name="Destroy" sid="8101924720074834" type="Obstacle" />
+                        <action id="0" name="Set text" sid="5868565721148325" type="ContractReadout">
+                            <param id="0" name="Text">&quot;Contracts Collected: &quot; &amp; ContractsCollected</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="9492711273268862">
+                            <conditions>
+                                <condition id="-10" name="For" sid="3428358536214467" type="System">
+                                    <param id="0" name="Name">&quot;NumObstacles&quot;</param>
+                                    <param id="1" name="Start index">1</param>
+                                    <param id="2" name="End index">NumObstacles</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="3290391374898889" type="System">
+                                    <param id="0" name="Object to create">Obstacle</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">random(125, 771)</param>
+                                    <param id="3" name="Y">random(0, 576)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6097058242055398">
+                            <conditions>
+                                <condition id="-10" name="For" sid="8482960348353402" type="System">
+                                    <param id="0" name="Name">&quot;NumContracts&quot;</param>
+                                    <param id="1" name="Start index">1</param>
+                                    <param id="2" name="End index">NumContracts</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="8298360833196917" type="System">
+                                    <param id="0" name="Object to create">Contracts</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">random(125, 771)</param>
+                                    <param id="3" name="Y">random(0, 576)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5455396050881199">
+                            <conditions>
+                                <condition id="-10" name="For" sid="5285285365104215" type="System">
+                                    <param id="0" name="Name">&quot;NumAsteroids&quot;</param>
+                                    <param id="1" name="Start index">1</param>
+                                    <param id="2" name="End index">NumAsteroids</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="2090872524981096" type="System">
+                                    <param id="0" name="Object to create">Asteroids</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">random(125, 771)</param>
+                                    <param id="3" name="Y">random(0, 576)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="9258753867457066" title="Create Route">
+            <sub-events>
+                <event-block sid="2481641470386401">
+                    <conditions>
+                        <condition id="2" name="Is in touch" sid="8057343117990142" type="Touch" />
+                        <condition id="-6" name="Every X seconds" sid="8238444489909425" type="System">
+                            <param id="0" name="Interval (seconds)">0.07</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="7949553421056519" type="System">
+                            <param id="0" name="Object to create">Route</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">Touch.X</param>
+                            <param id="3" name="Y">Touch.Y</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="3734591872604966" type="System">
+                            <param id="0" name="Variable">NavPoints</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6327118524748533">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="949321152676675" type="System">
+                            <param id="0" name="Object">Route</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="7634951187819317" type="System">
+                            <param id="0" name="Object to create">Line</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">Route(NavPoints-1).X</param>
+                            <param id="3" name="Y">Route(NavPoints-1).Y</param>
+                        </action>
+                        <action id="-22" name="Set angle toward position" sid="3916670393172195" type="Line">
+                            <param id="0" name="X">Route(NavPoints).X</param>
+                            <param id="1" name="Y">Route(NavPoints).Y</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="3188040553126951" type="Line">
+                            <param id="0" name="Width">distance(Route(NavPoints-1).X,Route(NavPoints-1).Y, Route(NavPoints).X,Route(NavPoints).Y)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="2653520475348303" title="Contracts">
+            <sub-events>
+                <event-block sid="9523367444463266">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="2624279784348161" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1765306098668913" type="ContractReadout">
+                            <param id="0" name="Text">&quot;Contracts Collected: &quot; &amp; ContractsCollected</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1130965089472354">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="6158867826905232" type="Contracts">
+                            <param id="0" name="Object">Ship</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="6592630363027447" type="Contracts" />
+                        <action id="-10" name="Add to" sid="7034048969041746" type="System">
+                            <param id="0" name="Variable">ContractsCollected</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5748467663543113">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="7626266211538504" type="Contracts">
+                            <param id="0" name="Object">Obstacle</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="3213230752006842" type="Contracts" />
+                        <action id="-3" name="Create object" sid="197045420920976" type="System">
+                            <param id="0" name="Object to create">Contracts</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">random(0,960)</param>
+                            <param id="3" name="Y">random(0,640)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="4335722711697044" title="Buttons">
+            <sub-events>
+                <event-block sid="9421382316256426">
+                    <conditions>
+                        <condition id="-3" name="Is on-screen" sid="4104167163931778" type="Route" />
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set visible" sid="5409009085743882" type="Done">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Done Button</comment>
+                <event-block sid="2975814785987348">
+                    <conditions>
+                        <condition id="0" name="On clicked" sid="1080286372202874" type="Done" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="341988509687416" type="System">
+                            <param id="0" name="Object to create">Ship</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">Origin.X</param>
+                            <param id="3" name="Y">Origin.Y</param>
+                        </action>
+                        <action id="-21" name="Rotate toward position" sid="9753105366702213" type="Ship">
+                            <param id="0" name="Degrees">360</param>
+                            <param id="1" name="X">Route(0).X</param>
+                            <param id="2" name="Y">Route(0).Y</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="697937872645868" type="System">
+                            <param id="0" name="Object to create">Line</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">Origin.X</param>
+                            <param id="3" name="Y">Origin.Y</param>
+                        </action>
+                        <action id="-22" name="Set angle toward position" sid="4442340119661721" type="Line">
+                            <param id="0" name="X">Route.X</param>
+                            <param id="1" name="Y">Route.Y</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="1846703864561748" type="Line">
+                            <param id="0" name="Width">distance(Origin.X, Origin.Y, Route.X, Route.Y)</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="3260349253453535" type="System">
+                            <param id="0" name="Object to create">Line</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">Route(NavPoints).X</param>
+                            <param id="3" name="Y">Route(NavPoints).Y</param>
+                        </action>
+                        <action id="-22" name="Set angle toward position" sid="8719873830490136" type="Line">
+                            <param id="0" name="X">Destination.X</param>
+                            <param id="1" name="Y">Destination.Y</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="9242242987761202" type="Line">
+                            <param id="0" name="Width">distance(Route(NavPoints).X, Route(NavPoints).Y, Destination.X, Destination.Y)</param>
+                        </action>
+                        <action id="2" name="Set visible" sid="4916985831406786" type="Done">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="2" name="Set visible" sid="9826883202187633" type="Go">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Reset Button</comment>
+                <event-block collapsed="1" sid="4460312913580802">
+                    <conditions>
+                        <condition id="0" name="On clicked" sid="6847388644034046" type="Reset" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="6719347879612356" type="Asteroids" />
+                        <action id="-9" name="Destroy" sid="4803044971386887" type="Contracts" />
+                        <action id="-9" name="Destroy" sid="8298553507529597" type="Line" />
+                        <action id="-9" name="Destroy" sid="8985427439572076" type="Obstacle" />
+                        <action id="-9" name="Destroy" sid="3189338608117546" type="Route" />
+                        <action id="-9" name="Destroy" sid="7588572256059626" type="Ship" />
+                        <action id="-9" name="Destroy" sid="9539038866472045" type="ShipDestroy" />
+                        <action id="2" name="Set visible" sid="2210808319312238" type="Done">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="2" name="Set visible" sid="1683118428879374" type="Go">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6351593395075136" type="System">
+                            <param id="0" name="Variable">NavPoints</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="4361753487308786" type="System">
+                            <param id="0" name="Variable">ShipFlight</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="2282664560216004">
+                            <conditions>
+                                <condition id="-10" name="For" sid="6644141938322573" type="System">
+                                    <param id="0" name="Name">&quot;NumObstacles&quot;</param>
+                                    <param id="1" name="Start index">1</param>
+                                    <param id="2" name="End index">NumObstacles</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="6586685174951031" type="System">
+                                    <param id="0" name="Object to create">Obstacle</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">random(125, 771)</param>
+                                    <param id="3" name="Y">random(0, 576)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7095655511684357">
+                            <conditions>
+                                <condition id="-10" name="For" sid="4301055499258394" type="System">
+                                    <param id="0" name="Name">&quot;NumContracts&quot;</param>
+                                    <param id="1" name="Start index">1</param>
+                                    <param id="2" name="End index">NumContracts</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="9416230554494112" type="System">
+                                    <param id="0" name="Object to create">Contracts</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">random(125, 771)</param>
+                                    <param id="3" name="Y">random(0, 576)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2152340268394271">
+                            <conditions>
+                                <condition id="-10" name="For" sid="4784916675183499" type="System">
+                                    <param id="0" name="Name">&quot;NumAsteroids&quot;</param>
+                                    <param id="1" name="Start index">1</param>
+                                    <param id="2" name="End index">NumAsteroids</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="8472890149785437" type="System">
+                                    <param id="0" name="Object to create">Asteroids</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">random(125, 771)</param>
+                                    <param id="3" name="Y">random(0, 576)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>Go Button</comment>
+                <event-block sid="8792920226009327">
+                    <conditions>
+                        <condition id="0" name="On clicked" sid="5304417662430927" type="Go" />
+                    </conditions>
+                    <actions>
+                        <action id="-21" name="Rotate toward position" sid="5726812194979487" type="Ship">
+                            <param id="0" name="Degrees">360</param>
+                            <param id="1" name="X">Route(0).X</param>
+                            <param id="2" name="Y">Route(0).Y</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="6859090169860324" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action behavior="Car" id="3" name="Set speed" sid="3042283921017159" type="Ship">
+                            <param id="0" name="Speed">ShipSpeed</param>
+                        </action>
+                        <action id="2" name="Set visible" sid="3024749652806257" type="Go">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="421079348886844" type="System">
+                            <param id="0" name="Group name">&quot;Create Route&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-17" name="Set layer scale" sid="593379207476735" type="System">
+                            <param id="0" name="Layer">0</param>
+                            <param id="1" name="Scale">7</param>
+                        </action>
+                        <action id="-17" name="Set layer scale" sid="4944133140535335" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Scale">7</param>
+                        </action>
+                        <action id="-8" name="Scroll to object" sid="6017074157777544" type="System">
+                            <param id="0" name="Object">Ship</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8392464319336954">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="4747605133721507" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-8" name="Scroll to object" sid="1219862897244667" type="System">
+                            <param id="0" name="Object">Ship</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="1382045500110981" title="Ship Flight">
+            <sub-events>
+                <event-block disabled="1" sid="1765917619685347">
+                    <conditions>
+                        <condition id="2" name="Mouse button is down" sid="1717767117141938" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Car" id="7" name="Simulate control" sid="6550002394101861" type="Ship">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="7637033965186088">
+                    <conditions>
+                        <condition id="2" name="Mouse button is down" sid="3813342300138898" type="Mouse">
+                            <param id="0" name="Mouse button">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Car" id="7" name="Simulate control" sid="1433854139235006" type="Ship">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="4828366865651239" title="Rotate">
+                    <sub-events>
+                        <event-block sid="9916015789932139">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="1239597293602903" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-21" name="Rotate toward position" sid="9973756294046142" type="Ship">
+                                    <param id="0" name="Degrees">30</param>
+                                    <param id="1" name="X">Route(ShipFlight).X</param>
+                                    <param id="2" name="Y">Route(ShipFlight).Y</param>
+                                </action>
+                                <action disabled="1" id="-21" name="Rotate toward position" sid="5360737274809454" type="Ship">
+                                    <param id="0" name="Degrees">360</param>
+                                    <param id="1" name="X">Route(ShipFlight).X</param>
+                                    <param id="2" name="Y">Route(ShipFlight).Y</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-block sid="5375557098625354">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="8222094474805858" type="Ship">
+                            <param id="0" name="Object">Route</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Car" id="3" name="Set speed" sid="668137379558309" type="Ship">
+                            <param id="0" name="Speed">ShipSpeed</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="2992686276154532" type="System">
+                            <param id="0" name="Variable">ShipFlight</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="5994317592625218">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="2652398162398906" type="System">
+                                    <param id="0" name="Variable">ShipFlight</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">NavPoints</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-21" name="Rotate toward position" sid="2685521708758138" type="Ship">
+                                    <param id="0" name="Degrees">360</param>
+                                    <param id="1" name="X">Destination.X</param>
+                                    <param id="2" name="Y">Destination.Y</param>
+                                </action>
+                                <action id="-12" name="Set group active" sid="7267440769421148" type="System">
+                                    <param id="0" name="Group name">&quot;Rotate&quot;</param>
+                                    <param id="1" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="2287434632912569">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="2633738563155586" type="Ship">
+                            <param id="0" name="Object">Destination</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Car" id="3" name="Set speed" sid="3024212012022517" type="Ship">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="3922760510628612" type="System">
+                            <param id="0" name="Variable">NavPoints</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6446758965228726" type="System">
+                            <param id="0" name="Variable">ShipFlight</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="2588888111941544" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-17" name="Set layer scale" sid="2615835161640725" type="System">
+                            <param id="0" name="Layer">0</param>
+                            <param id="1" name="Scale">1.0</param>
+                        </action>
+                        <action id="-17" name="Set layer scale" sid="6814537534200878" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Scale">1.0</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="8458277209511099" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="1609671544164501" title="Obstacles">
+            <sub-events>
+                <event-block sid="7970562437110792">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="9955246736565322" type="Ship">
+                            <param id="0" name="Object">Asteroids</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Car" id="11" name="Set friction" sid="3711521502530617" type="Ship">
+                            <param id="0" name="Friction">150</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="9937677020243307" type="Ship">
+                            <param id="0" name="Max Speed">150</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3427496180873792">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="4455604896687433" type="Ship">
+                            <param id="0" name="Object">Asteroids</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Car" id="11" name="Set friction" sid="1051242570724748" type="Ship">
+                            <param id="0" name="Friction">50</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="7814637211542225" type="Ship">
+                            <param id="0" name="Max Speed">360</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4587792096291714">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="6396181977815383" type="Ship">
+                            <param id="0" name="Object">Obstacle</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="4886582112206985" type="Ship" />
+                        <action id="-3" name="Create object" sid="4970697673734015" type="System">
+                            <param id="0" name="Object to create">ShipDestroy</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">Ship.X</param>
+                            <param id="3" name="Y">Ship.Y</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6217662087264241" type="System">
+                            <param id="0" name="Variable">NavPoints</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="8995647262189694" type="System">
+                            <param id="0" name="Variable">ShipFlight</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="9719450733394291" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-17" name="Set layer scale" sid="1156259721678982" type="System">
+                            <param id="0" name="Layer">0</param>
+                            <param id="1" name="Scale">1.0</param>
+                        </action>
+                        <action id="-17" name="Set layer scale" sid="4010430405656739" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Scale">1.0</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="769259149087681" type="System" />
+                    </actions>
+                </event-block>
+                <event-block sid="905817651579789">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="4219219945887176" type="Asteroids">
+                            <param id="0" name="Object">Obstacle</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="3939270651980522" type="Asteroids" />
+                        <action id="-3" name="Create object" sid="2851200645787359" type="System">
+                            <param id="0" name="Object to create">Asteroids</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">random(125,771)</param>
+                            <param id="3" name="Y">random(0,576)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3143075314791521">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="9414162291881748" type="Asteroids">
+                            <param id="0" name="Object">Asteroids</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="3499487043385708" type="Asteroids" />
+                        <action id="-3" name="Create object" sid="6633812399218608" type="System">
+                            <param id="0" name="Object to create">Asteroids</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">random(125,771)</param>
+                            <param id="3" name="Y">random(0,576)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

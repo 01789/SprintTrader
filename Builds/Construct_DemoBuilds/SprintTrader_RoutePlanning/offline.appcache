@@ -1,0 +1,25 @@
+﻿CACHE MANIFEST
+#1370103795
+index.html
+c2runtime.js
+jquery-2.0.0.min.js
+logo.png
+images\route-sheet0.png
+images\line-sheet0.png
+images\ship-sheet0.png
+images\origin-sheet0.png
+images\obstacle-sheet0.png
+images\destination-sheet0.png
+images\contracts-sheet0.png
+images\shipdestroy.png
+images\asteroids-sheet0.png
+images\powerbar-sheet0.png
+images\powerreserve-sheet0.png
+images\shieldsincrease-sheet0.png
+images\engineincrease-sheet0.png
+images\shieldsdecrease-sheet0.png
+images\enginedecrease-sheet0.png
+images\powerbaractive-sheet0.png
+images\powerreservefull-sheet0.png
+NETWORK:
+*

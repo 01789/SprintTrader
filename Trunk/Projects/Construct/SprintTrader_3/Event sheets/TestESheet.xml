@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>TestESheet</name>
+    <events>
+        <variable constant="0" name="Power" sid="7049518513827155" static="0" type="number">5</variable>
+        <variable constant="0" name="Engines" sid="6720589564110694" static="0" type="number">0</variable>
+        <variable constant="0" name="Shields" sid="2255740948707248" static="0" type="number">0</variable>
+        <event-block sid="1868001131032889">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4363961040384728" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="3624304327576461" type="Titles">
+                    <param id="0" name="Pin to">Ship</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="7116690431955145" type="EnginesPower">
+                    <param id="0" name="Pin to">Ship</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="1298512277615196" type="ShieldsPower">
+                    <param id="0" name="Pin to">Ship</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="2506697913001864" type="TotalPower">
+                    <param id="0" name="Pin to">Ship</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="1034222005052229" type="EnginesAdd">
+                    <param id="0" name="Pin to">Ship</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="723528040343051" type="EnginesSub">
+                    <param id="0" name="Pin to">Ship</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="8160795105347601" type="ShieldsAdd">
+                    <param id="0" name="Pin to">Ship</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="3292960662617331" type="ShieldsSub">
+                    <param id="0" name="Pin to">Ship</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="2429522784355324" type="Shield">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="3917677483641661" type="Shield">
+                    <param id="0" name="Object">Ship</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="6784275881477875" type="Shield">
+                    <param id="0" name="Pin to">Ship</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="4769119582121332" type="System">
+                    <param id="0" name="Variable">Engines</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="4383385970068733" type="System">
+                    <param id="0" name="Variable">Shields</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="7276754699787232" type="System">
+                    <param id="0" name="Variable">Power</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+                <action id="-16" name="Wait" sid="4881507591684082" type="System">
+                    <param id="0" name="Seconds">3.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3340487726989945">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="8952050541939981" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Car" id="3" name="Set speed" sid="7900301387484397" type="Ship">
+                    <param id="0" name="Speed">360</param>
+                </action>
+                <action id="-8" name="Scroll to object" sid="8127831404953836" type="System">
+                    <param id="0" name="Object">Ship</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8973599873783534">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="7835843292051128" type="Ship">
+                    <param id="0" name="Object">Asteroids</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Car" id="4" name="Set max speed" sid="9871570254099738" type="Ship">
+                    <param id="0" name="Max Speed">50</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block any="1" sid="7459393461078852">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7697041036322944" type="System">
+                            <param id="0" name="Variable">Engines</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="4154678615115277" type="System">
+                            <param id="0" name="Variable">Shields</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="3038731348380871" type="Shield" />
+                        <action id="-9" name="Destroy" sid="6448196132395729" type="Ship" />
+                        <action id="-3" name="Create object" sid="4241107719551018" type="System">
+                            <param id="0" name="Object to create">ShipDestroy</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">ship.X</param>
+                            <param id="3" name="Y">Ship.Y</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="6723320114964477" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="8551437799498445" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="9530192496109575">
+            <conditions>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="8956167140651053" type="Ship">
+                    <param id="0" name="Object">Asteroids</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Car" id="4" name="Set max speed" sid="2725220027930107" type="Ship">
+                    <param id="0" name="Max Speed">150</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9183942800965922">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6725647243943254" type="Ship">
+                    <param id="0" name="Object">Contracts</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="8355217543076735" type="Contracts" />
+                <action id="-3" name="Create object" sid="1784148872832273" type="System">
+                    <param id="0" name="Object to create">Particles</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">Contracts.X</param>
+                    <param id="3" name="Y">Contracts.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="7397864920173749" title="Power">
+            <sub-events>
+                <event-block sid="1136608538267438">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="8768131112374679" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8801356103405519" type="EnginesPower">
+                            <param id="0" name="Text">Engines &amp; &quot;/5&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="4137550245846934" type="ShieldsPower">
+                            <param id="0" name="Text">Shields &amp; &quot;/5&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="9984895461698607" type="TotalPower">
+                            <param id="0" name="Text">Power &amp; &quot;/5&quot;</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="2564804246465547">
+                            <conditions>
+                                <condition id="-10" name="For" sid="4584654062105556" type="System">
+                                    <param id="0" name="Name">&quot;Engines&quot;</param>
+                                    <param id="1" name="Start index">1</param>
+                                    <param id="2" name="End index">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Car" id="4" name="Set max speed" sid="6311177202160718" type="Ship">
+                                    <param id="0" name="Max Speed">150+(Engines*42)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="7746876707822744">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="5452178008386985" type="Touch">
+                            <param id="0" name="Object">EnginesAdd</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="4161814547067803" type="System">
+                            <param id="0" name="Variable">Power</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="5410509025469609" type="System">
+                            <param id="0" name="Variable">Engines</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block any="1" sid="1929802550362701">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="2000020231398962" type="System">
+                                    <param id="0" name="Variable">Engines</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="1161572810006252" type="System">
+                                    <param id="0" name="Variable">Power</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="8418514765458277" type="System">
+                                    <param id="0" name="Variable">Engines</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="2188068372753682" type="System">
+                                    <param id="0" name="Variable">Power</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action behavior="Flash" id="0" name="Flash" sid="1025054014289463" type="EnginesPower">
+                                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                                    <param id="2" name="Duration">1.0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="8276112530336502">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="382577005331416" type="Touch">
+                            <param id="0" name="Object">EnginesSub</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="8315010046009616" type="System">
+                            <param id="0" name="Variable">Engines</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="3659354138825428" type="System">
+                            <param id="0" name="Variable">Power</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block any="1" sid="9161701998577328">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="4426018876509122" type="System">
+                                    <param id="0" name="Variable">Engines</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="9462718199221583" type="System">
+                                    <param id="0" name="Variable">Power</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="2874933829588729" type="System">
+                                    <param id="0" name="Variable">Engines</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action behavior="Flash" id="0" name="Flash" sid="7552625335981754" type="EnginesPower">
+                                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                                    <param id="2" name="Duration">1.0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="9422320557007306">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="3739247646917301" type="Touch">
+                            <param id="0" name="Object">ShieldsAdd</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="7292217296045116" type="System">
+                            <param id="0" name="Variable">Power</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="239733622788808" type="System">
+                            <param id="0" name="Variable">Shields</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block any="1" sid="5239730754607852">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="7009391179438171" type="System">
+                                    <param id="0" name="Variable">Shields</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="3983949362105507" type="System">
+                                    <param id="0" name="Variable">Power</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="4022112429122201" type="System">
+                                    <param id="0" name="Variable">Shields</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="8263325567403042" type="System">
+                                    <param id="0" name="Variable">Power</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action behavior="Flash" id="0" name="Flash" sid="1276539259644669" type="ShieldsPower">
+                                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                                    <param id="2" name="Duration">1.0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="809908077132507">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="1386222880010723" type="Touch">
+                            <param id="0" name="Object">ShieldsSub</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="5384476811524113" type="System">
+                            <param id="0" name="Variable">Shields</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="1411973060232295" type="System">
+                            <param id="0" name="Variable">Power</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="4910566062578116">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="9190552790773396" type="System">
+                                    <param id="0" name="Variable">Shields</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="2011472785922233" type="System">
+                                    <param id="0" name="Variable">Power</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="7164269555639019" type="System">
+                                    <param id="0" name="Variable">Shields</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action behavior="Flash" id="0" name="Flash" sid="3547752598144814" type="ShieldsPower">
+                                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                                    <param id="2" name="Duration">1.0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="4591270959354013">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="7896120795783273" type="System">
+                    <param id="0" name="Variable">Shields</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="2833275111424985" type="Shield">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1841124644452538">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="8781304831513103" type="System">
+                    <param id="0" name="Variable">Shields</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="9714095959794173" type="Shield">
+                    <param id="0" name="Opacity">20</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1390888580014945">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="2729913499348637" type="System">
+                    <param id="0" name="Variable">Shields</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="2769952925729845" type="Shield">
+                    <param id="0" name="Opacity">40</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3028174757562505">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="4853766517256635" type="System">
+                    <param id="0" name="Variable">Shields</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="2428053892782744" type="Shield">
+                    <param id="0" name="Opacity">60</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5409977699792121">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="2642957239382133" type="System">
+                    <param id="0" name="Variable">Shields</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="4602266824229378" type="Shield">
+                    <param id="0" name="Opacity">80</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3972319948890618">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="4435171758146444" type="System">
+                    <param id="0" name="Variable">Shields</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="8043008568869414" type="Shield">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
