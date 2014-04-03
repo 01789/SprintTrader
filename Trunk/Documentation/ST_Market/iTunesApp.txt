@@ -1,0 +1,40 @@
+iTunes App Store
+The construction of the App store seems a little better for finding the information that I'm looking for. No games similar to ST concept in the first 150 top paid games, same in the top 150 free games.
+
+Looking through categories, selecting the "What's hot" section to get an idea for what is being downloaded and played now. Free and paid are mixed together. Nothing in Action, Adventure, Role playing, Simulation. One in Strategy.
+
+The overwhelming majority of games across all categories were fantasy-themed with a fair number of modern-set games. There was a distinct lack of futuristic games present. There were more abstracted or re-made card games than there were science-fiction-type games.
+
+Found via "What we're playing" option
+	Star Horizon (https://itunes.apple.com/us/app/star-horizon/id814466047?mt=8)
+		- 3D space shooter (Rails)
+		- $3.99
+		- It looks nice
+		- Ship upgrades
+		- Branching (?) storyline
+		- Should look up videos
+Found via "Strategy" category search
+	Galaxy Legend (https://itunes.apple.com/us/app/galaxy-legend/id599877646?mt=8)
+		- Isometric space RTS/RTS civ-building game
+		- Free with IAP
+		- Little information in the store overall, it appears that you must download to get complete info on the game.
+		- May be worth playing?
+		
+More targeted searches reveal several games listed below:
+Search Term: Space (refined to iPad apps, since the platform is more conducive to gameplay of the type I'm looking for)
+The #1 app listed is "SkyView."
+	Galactic Empires (https://itunes.apple.com/us/app/galactic-empires-space-war/id374559518?mt=8)
+	Space Freight (https://itunes.apple.com/us/app/space-freight/id415858690?mt=8)
+	Space Cadet Defender: Recon Invaders (https://itunes.apple.com/us/app/space-cadet-defender-recon/id712286226?mt=8)
+	Starborn Wanderers HD (https://itunes.apple.com/us/app/space-cadet-defender-recon/id712286226?mt=8)
+Search Term: Starship (This proved to be much richer than on Google Play - oddly there are fewer relevant games, however.)
+	Starship Disassembly 3D (https://itunes.apple.com/us/app/starship-disassembly-3d/id525459932?mt=8)
+	Starship (https://itunes.apple.com/us/app/starship/id478683253?mt=8)
+Search Term: Trader, Refined to: Trader game
+	Star Traders RPG (https://itunes.apple.com/us/app/star-traders-rpg/id528949262?mt=8)
+		- In Google Play as well
+		- Free with IAP, $2.99 with IAP for "Elite"
+	MaritimeTrader (https://itunes.apple.com/us/app/maritimetrader/id454730119?mt=8)
+		- Free, $1.99 for ad-free
+	Star Shipping Inc. HD (https://itunes.apple.com/us/app/star-shipping-inc.-hd/id397673085?mt=8)
+The above games have not been extensively explored since most of them seemed very similar to the Google Play options that I had already explored. If necessity dictates a deeper look into competitors on the iTunes App Store I will examine these and dig deeper through the store.

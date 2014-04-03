@@ -1,0 +1,44 @@
+Steam App (Steam Store)
+This is a dramatically different ballgame. The previous explorations have been of mobile-only platforms. Steam is a PC-only platform (with the exception of the forthcoming Steambox, which will run Linux... so it's really not that different) This platform will expand the capabilities of the game and afford a greater flexibility of scope and control scheme.
+
+It's worth nothing that right away there are two games in the scrolling header window that have some relevance: Kerbal Space Program (KSP) and Space Engineers. (During the time of writing the feed updated to include FTL: Advanced Edition, a free update that includes a great deal more content)
+
+Found via the header scrolling window
+	FTL: Faster than Light, Advanced Edition (http://store.steampowered.com/app/212680/)
+		- Listed in the Featured Mac games scrolling box
+		- Listed in Top Sellers (#28)
+	Kerbal Space Program (http://store.steampowered.com/app/220200/)
+		- Listed in Top Sellers (#8)
+	Space Engineers (http://store.steampowered.com/app/244850/)
+		- Listed in Top Sellers (#13)
+Found via the featured PC games scrolling box
+	Starbound (http://store.steampowered.com/app/211820/)
+		- Listed in Top Sellers (#38)
+Found via the Top Sellers scrolling box
+	Galactic Civilizations III (http://store.steampowered.com/app/221380/)
+		- Listed #60
+	Freight Tycoon (http://store.steampowered.com/sub/37429/)
+		- Listed #100
+Found via the Coming Soon scrolling box
+	Eterium (http://store.steampowered.com/app/269310/)
+		- Listed #10
+Found via tag search for "Space"
+	Drifter (http://store.steampowered.com/app/259450/)
+		- Listed in New Releases (#9)
+		- Early access game
+		- Procedurally generated space trader
+		- Explorable galaxy 100,000 LY across.
+		- Shows promise
+	Rymdkapsel (http://store.steampowered.com/app/253790/)
+		- Listed in New Releases (#17)
+		- 
+	StarDrive (http://store.steampowered.com/app/220660/)
+		- Listed in New Releases (#47)
+Found via search term: Trader
+	Space Trader: Merchant Marine (http://store.steampowered.com/app/11240/)
+		- 
+Found via search term: Starship
+	EVE Online (http://store.steampowered.com/app/8500/)
+		- 
+		
+Based on preliminary research it appears that there are quite a few more games in the genre on the PC than on mobile devices. There is probably a good reason - most of these games are monstrously complex; there are a lot of moving pieces and a lot of things for the player to know and keep track of. That means there are a lot of specific controls that must be used and a lot of specific information that must be relayed via the UI to the player, both of those things are fairly difficult to get right on a phone. Additionally these games are typically meant for long play sessions (with the exception of FTL, maybe?) and mobile platforms are not conducive to long-term games.
