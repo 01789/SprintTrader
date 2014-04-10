@@ -1,0 +1,29 @@
+Unlike earlier iterations of mobile gaming there is a strong player base that is not just looking for a quick game of Angry Birds while walking to class, or waiting for the bus. There is a group of players who will dedicate themselves to a game nearly as fervently as any PC or console game.
+
+These hardcore mobile gamers are enjoying strategy-type games as well as various excel-simulator type games that require action every X minutes.
+
+The success of FTL: Advanced Edition for iPad is another huge feather in the cap for hardcore mobile gaming. While an unsuccessful flight in FTL could take minutes successful attempts can take hours to complete (assuming an appropriately careful approach) which shows that the length of time a player is willing to engage with a mobile game is much greater than it has been in the past.
+
+PC gamers are, however, still at the forefront of complex, difficult to master games. Examples like Space Engineers, Kerbal Space Program, and EVE Online show that no matter how complex or frustrating the game, it can build a loyal following in the PC market.
+
+However, with the huge rise in digital distribution and the relative ease of developing for an 8th generation console developing for these platforms is becoming a viable option. The inclusion of Glass, and Vita integration as well as the WiiU tablet controller mean that games can engage with console players in a far more complex way than they previously could. These features do rely on additional, expensive hardware (with the exception of the WiiU) and this requirement will limit the player base strongly. It's probably best to use these options as additional capabilities.
+
+Traditional demographic research references:
+Mobile
+http://blog.apptopia.com/game-demographics-that-every-developer-should-know/
+http://www.gamesindustry.com/tag/demographics/
+http://www.gamesindustry.com/half-american-smartphone-owners-spend-least-30-mins-day-gaming/
+http://www.visualizing.org/visualizations/mobile-gaming-statistics-2013
+PC
+
+Most of these demographics are still astounded by the fact that the age of the average gamer has advanced with the age of the kids that had Ataris at home. There also seems to be a preoccupation with the fact that *gasp!* women play games too!
+
+Overall not very helpful except the Mobile_GameType_Age-Gender.png file saved from the apptopia.com article. User retention is also worth noting.
+
+In general it seems that the game would be most appealing to males between the ages of 25 and 28, though 20-30% of the market would probably be women. If the game could be categorized as a Management/Sim game ~70% of the market would be females around 30 years old. Interesting that those two demographics are so far apart on the chart, but the game has the ability to hit both.
+
+For more in-depth study I would need to see which games were categorized under each data point in order to analyze art, design, advertising and theme.
+
+http://www.theesa.com/facts/pdfs/esa_ef_2013.pdf - This PDF is saved in the ST_Market folder. This is a comprehensive study of many different aspects of gaming - PC and console. It holds valuable information about who is buying what and why, opinions on control and ratings, as well as numerous other points of data that are valuable. Unfortunately nothing is specific to the games and genres relevant to Sprint Trader, specifically. 
+
+http://www.commonsensemedia.org/app-reviews/ftl-faster-than-light Common Sense Media appears to have an in-depth analysis of games pointing towards particular ages, quality ratings etc. Worth looking in to... It's targeted at parents and the search tools are limited, at best, but there may be some information to be gleaned. Limited, at best.
