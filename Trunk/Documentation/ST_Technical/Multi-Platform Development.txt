@@ -1,0 +1,45 @@
+PC/MAC/LINUX DEVELOPMENT
+	In general PC and Mac development follow the same guidelines, though consideration has to be made for the Mac's absence of a solid right-click option.
+
+	PCs and Macs are the most versatile platforms with the most potential power. Decently powerful gaming rigs are miles ahead of the capabilities even of consoles and offer numerous control methods unavailable to other platforms (keyboard/mouse, multiple game pads, joysticks, wheels, motion controls)
+
+TABLET/MOBILE DEVELOPMENT
+	Touch screen platforms are considerably different than others since the screens tend to be smaller and require the presence of all functionality to be on-screen. Keyboard, precision mouse clicking, right-clicking and various other commands are unavailable.
+
+	Games must be kept compact and efficient. Tablets and phones rarely have enough space to store multi-gig programs, loading times are often enough to turn mobile users off of the app, and power drain is a concern since smartphone users expect their devices to last all day.
+
+DEVELOPMENT FOR CONSOLES
+	Consoles are powerful, dedicated machines that can handle most any graphical or performance challenges presented. However they are limited by their market, the expectations of the control scheme, and the availability of a large multi-key surface like a keyboard.
+
+	It is possible to make a simple cursor controlled by the analogue stick, but it is far from ideal for a console platform that is not normally familiar with a free-roaming cursor control scheme.
+
+	By and large, console development is lucrative and relatively simple as the indie market on consoles has exploded over the past few years.
+
+	Console development depends being accepted as a developer by Sony or Microsoft.
+
+DEVELOPMENT FOR PC/MAC/LINUX AND TABLET/MOBILE
+	Adjusting tablet controls to a keyboard/mouse interface or vice versa is a complicated endeavor and it's important to build from the ground up otherwise you risk building mechanics or types of functionality that do not translate well.
+
+	Performance is another important limiting factor. Computers and laptops are considerably more powerful than tablets and do not have the same interrupt considerations that mobile phones do. Multitasking on a smartphone or tablet is much more demanding than multitasking on a PC.
+
+	In general it is usually best to either develop an entirely different package for mobile if your primary platform is PC or an entirely different game altogether if your specs are high.
+
+DEVELOPMENT FOR PC/MAC/LINUX AND CONSOLES
+	Numerous games have been extremely successful in cross-releasing to PC and console platforms. With the release of the PS4 and XBO (which use the x86 architecture) developing for these two platforms is much easier, though there is still the risk of API integration issues.
+
+DEVELOPMENT FOR TABLET/MOBILE AND CONSOLES
+	I can't think of a game that has been released only for console and tablet/mobile platforms. I would imagine that these two things would be more along the lines of companion applications due to the vast differences in control schemes.
+
+DEVELOPMENT FOR PC/MAC/LINUX, TABLET/MOBILE, AND CONSOLES
+	The obvious "holy grail" - the highest level of availability to the largest number of people. Bonus points for cross-platform communication and advancement.
+	
+	There are an enormous number of issues with this kind of massive release and I doubt there are many games that are fully released on all platforms.
+	
+	Sprint Trader has the potential to achieve this as long as the console application could be made compelling enough. Though given the complications associated... probably not the best choice right now.
+	
+CONCLUSIONS
+	While Tablet/Mobile development is an attainable goal the market doesn't seem to be rich enough to justify that level of development involvement. Additionally, if Unity is the chosen technology licenses for iOS and Android are $3,000 - not developing for those platforms saves on initial cost.
+	
+	Console development is worth exploring, inquiries to Sony and Microsoft cost nothing but preparing enough to get a response (and to be taken seriously) may be quite a bit of trouble.
+	
+	PC/Mac/Linux development is the best plan, prioritizing PC over Mac and Mac over Linux. This opens up the easiest development capabilities, holds the greatest number of potential players, has a number of distribution options, doesn't rely on becoming part of a developer program, and offers cheaper engine options.

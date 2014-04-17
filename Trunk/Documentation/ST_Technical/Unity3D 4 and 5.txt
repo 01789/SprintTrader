@@ -1,0 +1,45 @@
+UNITY3D v4
+	Advantages over v5
+		Familiarity
+		Stability
+		Support
+		Currently released
+
+UNITY3D v5
+	Advantages over 4
+		Native 64 bit
+		Realtime global illumination
+		More advanced audio mixing
+		Adaptive sounds
+		Physics improvements - one sided blocker objects, no plugin necessary for web
+		Numerous performance boosts within the Editor
+		Tree blending animation with state machine - easy editor
+		Mobile advertising built in - "first of many cloud services"
+
+Advantages of Unity in general
+	Extremely open development environment
+	No legacy code to inflate the project
+	Simple tools
+	Javascript and C# scripting
+	Easily modifiable, easily built development tools
+	Art pipeline is straightforward
+	Easy to deploy to almost any device
+
+Disadvantages of Unity in general
+	Less impressive visuals (though the Enlighten lighting system is integrated into v5)
+	No baseline, few built-in functionalities - nearly everything must be made from scratch
+	
+	
+Unity 5 Preorder Cost (comes with  Unity 4):
+	$1,500	Unity Pro (Includes functionality to port to Win8, OSX, Linux, Web, Win8 Phones and app store, BlackBerry 10)
+	$1,500	Android Pro
+	$1,500	iOS Pro
+	$  500	Team License
+Alternatively:
+	$   75	Monthly Unity Pro subscription
+	$   75	Monthly Android Pro subscription
+	$   75	Monthly iOS Pro subscription
+	$   20	Monthly Team License subscription
+	Monthly subscriptions are minimum 12 months, totalling $2,940 total annual expense. Compared to a $5,000 one-time expense.
+	
+There is no Royalty fee, no maintenance fee, no annual fee. The total money paid to Unity is $2,940/year for subscriptions, or $5,000 for persistent.
