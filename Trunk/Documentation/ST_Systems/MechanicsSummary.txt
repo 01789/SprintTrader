@@ -1,0 +1,50 @@
+Mechanics Summary
+
+Cargo Type & Traits
+ - Money
+ - Legal contracts
+ - Illegal contracts
+
+Combat
+ - Pirate zones
+ - Alliance checkpoints
+
+Contracts
+ - Money
+ - Contacts & Reputation
+	- Factions
+	- Personnel
+	- Bribery
+ - Docks
+ - Acquiring contracts
+
+Exploration
+ - Astronomical obstacles
+	- Debris
+	- Asteroids
+	- Comets
+	- Nebulae
+	- Solar flares
+	- ...?
+ - Ship malfunctions
+
+Ship Upgrades
+ - Money
+ - Ship systems
+	- Engine
+	- Navigation
+	- Cargo bays
+	- Shields
+	- Weapons
+	- Stealth
+	- Smuggling
+ 
+Travel
+ - Intrasystem travel
+	- Space Stations
+	- Planets
+	- Moons
+	- Traveling merchants
+ - Intersystem travel
+	- Jump Points
+	- FTL Clearance
