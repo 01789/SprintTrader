@@ -59,8 +59,7 @@ Shields
   - Combat Shields [Reduce damage from weapons by 90%]
   - Stealth Shields [Reduce detection chance by 75%]
 
-Engines
-  - Ion Emission Engine [Basic]
+Reactors
   - Chemical Combustion Engine [1.5x speed, 1.5x fuel consumption]
   - Hydrogen Fusion Engine [2x speed, 2x heat, 0.5x fuel consumption]
   - Dark Mater Combustion Engine [2.5x speed, ]
