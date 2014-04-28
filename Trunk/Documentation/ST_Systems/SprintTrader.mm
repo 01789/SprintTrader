@@ -13,8 +13,7 @@
       <font size="3">Numbers indicating priority</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
@@ -180,7 +179,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1398281017752" ID="ID_105769260" MODIFIED="1398450238983" TEXT="Cargo Type &amp; Traits">
+<node COLOR="#00b439" CREATED="1398281017752" ID="ID_105769260" MODIFIED="1398651766663" TEXT="Cargo Types">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-1"/>
@@ -595,7 +594,7 @@
     </ul>
   </body>
 </html></richcontent>
-<node COLOR="#111111" CREATED="1398364877278" ID="ID_310835806" MODIFIED="1398449578401">
+<node COLOR="#111111" CREATED="1398364877278" ID="ID_310835806" MODIFIED="1398464348621">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -726,9 +725,10 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#111111" CREATED="1398448880932" ID="ID_148510847" MODIFIED="1398449567775" TEXT="?">
+<node COLOR="#111111" CREATED="1398448880932" ID="ID_148510847" MODIFIED="1398652380503" TEXT="">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="help"/>
 </node>
 </node>
 </node>
@@ -842,7 +842,7 @@
 <node COLOR="#111111" CREATED="1398285195677" ID="ID_344178408" MODIFIED="1398449567782" TEXT="Large -10"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1398281245196" ID="ID_453057086" MODIFIED="1398450260334" TEXT="Navigation">
+<node COLOR="#00b439" CREATED="1398281245196" ID="ID_453057086" MODIFIED="1398490428062" TEXT="Navigation">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="full-2"/>
@@ -870,10 +870,10 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1398285037255" ID="ID_190319723" MODIFIED="1398450277700" TEXT="Chassis">
+<node COLOR="#00b439" CREATED="1398285037255" ID="ID_190319723" MODIFIED="1398490472679" TEXT="Chassis">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-7"/>
+<icon BUILTIN="full-6"/>
 <node COLOR="#990000" CREATED="1398285042952" ID="ID_773396668" MODIFIED="1398449567784" TEXT="Small">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
@@ -884,10 +884,10 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1398285057816" ID="ID_685973288" MODIFIED="1398450284140" TEXT="Heat generation/absorption">
+<node COLOR="#00b439" CREATED="1398285057816" ID="ID_685973288" MODIFIED="1398652596072" TEXT="Hazard Management">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-9"/>
+<icon BUILTIN="full-8"/>
 <node COLOR="#990000" CREATED="1398285367190" ID="ID_1835871582" MODIFIED="1398449567785" TEXT="Affects volatile cargo">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
@@ -895,6 +895,15 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1398285380230" ID="ID_513429155" MODIFIED="1398449567785" TEXT="Affects sustainable speed">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1398652601212" ID="ID_43800547" MODIFIED="1398652601920" TEXT="Heat">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1398652603716" ID="ID_1902207052" MODIFIED="1398652605631" TEXT="Radiation">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1398652605829" ID="ID_1993948855" MODIFIED="1398652612039" TEXT="Oxygen">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -952,11 +961,14 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1398445245002" ID="ID_10025055" MODIFIED="1398450281308" TEXT="Crew">
+<node COLOR="#00b439" CREATED="1398445245002" ID="ID_10025055" MODIFIED="1398490459507" TEXT="Crew">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-8"/>
-<node COLOR="#990000" CREATED="1398445247116" ID="ID_138937502" MODIFIED="1398449567789" TEXT="Trained">
+<icon BUILTIN="full-7"/>
+<node COLOR="#990000" CREATED="1398445247116" ID="ID_138937502" MODIFIED="1398652227015" TEXT="Servitors">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1398652218292" ID="ID_1569210435" MODIFIED="1398652220455" TEXT="Trained">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1398445250892" ID="ID_1112996594" MODIFIED="1398449567789" TEXT="Untrained">
@@ -966,10 +978,9 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1398281038836" ID="ID_284275057" MODIFIED="1398450271453" TEXT="Ship Upgrades">
+<node COLOR="#00b439" CREATED="1398281038836" ID="ID_284275057" MODIFIED="1398490449961" TEXT="Ship Upgrades">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="full-6"/>
 <node COLOR="#990000" CREATED="1398281161881" ID="ID_640895666" MODIFIED="1398449567790" TEXT="Money">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
@@ -1039,7 +1050,7 @@
 <node COLOR="#111111" CREATED="1398285704499" ID="ID_1197050836" MODIFIED="1398449567796" TEXT="Jump to new place"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1398369435145" ID="ID_1786458420" MODIFIED="1398449567796" TEXT="Space Travel">
+<node COLOR="#00b439" CREATED="1398369435145" ID="ID_1786458420" MODIFIED="1398651613785" TEXT="Space Travel" VSHIFT="184">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
@@ -1067,13 +1078,13 @@
 <node COLOR="#111111" CREATED="1398369731430" ID="ID_672784752" MODIFIED="1398449567797" TEXT="Some rare jumps may cost more">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#111111" CREATED="1398371618695" ID="ID_403838930" MODIFIED="1398449567798" TEXT="Sometimes a jump may take an extra small portion of fuel">
+<node COLOR="#111111" CREATED="1398371618695" ID="ID_403838930" MODIFIED="1398489608623" TEXT="Sometimes a jump may take an extra small portion of fuel">
 <font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="xmag"/>
+<icon BUILTIN="help"/>
 </node>
-<node COLOR="#111111" CREATED="1398371668425" ID="ID_1524698150" MODIFIED="1398449567798" TEXT="This portion will not be noted by may cause a failed jump.">
+<node COLOR="#111111" CREATED="1398371668425" ID="ID_1524698150" MODIFIED="1398489611593" TEXT="This portion will not be noted by may cause a failed jump.">
 <font NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="xmag"/>
+<icon BUILTIN="help"/>
 </node>
 </node>
 <node COLOR="#111111" CREATED="1398369650915" ID="ID_1729940334" MODIFIED="1398449567798" TEXT="Some ships may be incapable of interstellar travel">
