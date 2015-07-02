@@ -1,0 +1,770 @@
+﻿[2015.07.02-01.00.11:194][  0]Log file open, 07/01/15 21:00:11
+[2015.07.02-01.00.11:194][  0]LogInit:Display: Running engine for game: BlankProject
+[2015.07.02-01.00.11:194][  0]LogInit:Display: RandInit(-1925127039) SRandInit(-1925127038).
+[2015.07.02-01.00.11:194][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.02-01.00.11:194][  0]LogStats: Stats thread started
+[2015.07.02-01.00.11:195][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.02-01.00.11:195][  0]LogInit: API Version: 2579680
+[2015.07.02-01.00.11:195][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
+[2015.07.02-01.00.11:195][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.02-01.00.11:195][  0]LogInit: Build Configuration: Development
+[2015.07.02-01.00.11:195][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.02-01.00.11:195][  0]LogInit: Command line:  
+[2015.07.02-01.00.11:195][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.02-01.00.11:195][  0]LogInit: Rocket: 1
+[2015.07.02-01.00.11:223][  0]LogInit: Using libcurl 7.41.0
+[2015.07.02-01.00.11:223][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.02-01.00.11:223][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.02-01.00.11:223][  0]LogInit:  - other features:
+[2015.07.02-01.00.11:223][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.02-01.00.11:223][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.02-01.00.11:223][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.02-01.00.11:223][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.02-01.00.11:223][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.02-01.00.11:223][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.02-01.00.11:223][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.02-01.00.11:223][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.02-01.00.11:223][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.02-01.00.11:223][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.02-01.00.11:250][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.02-01.00.11:397][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.02-01.00.11:415][  0]LogInit: Object subsystem initialized
+[2015.07.02-01.00.11:420][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.02-01.00.11:420][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.02-01.00.11:444][  0]LogInit: Computer: MANTICORE
+[2015.07.02-01.00.11:444][  0]LogInit: User: AJ
+[2015.07.02-01.00.11:444][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.02-01.00.11:444][  0]LogInit: High frequency timer resolution =1.554697 MHz
+[2015.07.02-01.00.11:444][  0]LogMemory: Memory total: Physical=7.0GB (7GB approx)
+[2015.07.02-01.00.11:444][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.02-01.00.11:444][  0]LogMemory: Process Physical Memory: 47.22 MB used, 47.22 MB peak
+[2015.07.02-01.00.11:444][  0]LogMemory: Process Virtual Memory: 22.30 MB used, 22.30 MB peak
+[2015.07.02-01.00.11:444][  0]LogMemory: Physical Memory: 2744.60 MB used, 7159.18 MB total
+[2015.07.02-01.00.11:444][  0]LogMemory: Virtual Memory: 297.84 MB used, 134217728.00 MB total
+[2015.07.02-01.00.12:375][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.02-01.00.12:892][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.02-01.00.14:095][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.07.02-01.00.14:095][  0]LogD3D11RHI: Adapter has 1986MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.07.02-01.00.14:097][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.02-01.00.14:097][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.02-01.00.14:097][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.02-01.00.14:102][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.02-01.00.14:117][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.02-01.00.14:138][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.02-01.00.17:503][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.02-01.00.17:536][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.02-01.00.17:569][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.02-01.00.17:601][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.02-01.00.17:637][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.02-01.00.17:669][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.02-01.00.17:697][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.02-01.00.17:724][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.02-01.00.17:753][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.02-01.00.17:782][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.02-01.00.17:809][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.02-01.00.17:838][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.02-01.00.18:003][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.02-01.00.18:031][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.02-01.00.18:058][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.02-01.00.18:094][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.02-01.00.18:094][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.02-01.00.19:346][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.02-01.00.19:806][  0]LogDerivedDataCache: Loaded boot cache 0.46s 55MB C:/Users/AJ/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.02-01.00.19:806][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/AJ/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.02-01.00.19:806][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.02-01.00.19:806][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.02-01.00.19:806][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.02-01.00.19:806][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.02-01.00.20:209][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.02-01.00.20:223][  0]LogDerivedDataCache: Using Local data cache path C:/Users/AJ/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.02-01.00.29:572][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.02-01.00.29:756][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.02-01.00.29:757][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.02-01.00.29:820][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.02-01.00.29:820][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.02-01.00.30:480][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.02-01.00.33:788][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.02-01.00.34:508][  0]SourceControl: Info Source control is disabled
+[2015.07.02-01.00.34:716][  0]SourceControl: Info Source control is disabled
+[2015.07.02-01.00.34:740][  0]SourceControl: Info Source control is disabled
+[2015.07.02-01.00.34:762][  0]SourceControl: Info Source control is disabled
+[2015.07.02-01.00.35:375][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.02-01.00.35:375][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
+[2015.07.02-01.00.35:529][  0]LogEngine: Initializing Engine...
+[2015.07.02-01.00.35:533][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.02-01.00.35:584][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.07.02-01.00.35:928][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.02-01.00.35:947][  0]LogInit: XAudio2 using 'HF255-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.02-01.00.35:963][  0]LogInit: FAudioDevice initialized.
+[2015.07.02-01.00.36:005][  0]LogDerivedDataCache: Saved boot cache 0.04s 55MB C:/Users/AJ/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.02-01.00.36:018][  0]LogInit: Texture streaming: Disabled
+[2015.07.02-01.00.36:073][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.02-01.00.36:073][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.02-01.00.36:073][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 51174733427e2c3ad037639cf30648a0|33676db9597d43e2b4a3f90026682f61|4160c89b-549a-425f-8373-f5a44b869008
+[2015.07.02-01.00.36:073][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.02-01.00.36:147][  0]LogInit: Transaction tracking system initialized
+[2015.07.02-01.00.36:442][  0]BlueprintLog: New page: Editor Load
+[2015.07.02-01.00.36:506][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.07.02-01.00.36:506][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.02-01.00.40:513][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.02-01.00.40:517][  0]LogConsoleResponse:Display: 
+[2015.07.02-01.00.40:735][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.02-01.00.41:667][  0]SourceControl: Info Source control is disabled
+[2015.07.02-01.00.41:804][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.8/FeaturePacks/StarterContent.upack)
+[2015.07.02-01.00.41:915][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2015.07.02-01.00.41:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2015.07.02-01.00.41:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2015.07.02-01.00.41:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2015.07.02-01.00.42:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset"
+[2015.07.02-01.00.42:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset"
+[2015.07.02-01.00.42:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2015.07.02-01.00.42:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2015.07.02-01.00.42:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2015.07.02-01.00.42:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2015.07.02-01.00.42:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2015.07.02-01.00.42:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2015.07.02-01.00.42:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2015.07.02-01.00.42:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2015.07.02-01.00.42:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Collapse01.uasset"
+[2015.07.02-01.00.42:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Collapse02.uasset"
+[2015.07.02-01.00.42:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2015.07.02-01.00.42:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Explosion01.uasset"
+[2015.07.02-01.00.42:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Explosion02.uasset"
+[2015.07.02-01.00.42:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2015.07.02-01.00.42:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Fire01.uasset"
+[2015.07.02-01.00.42:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2015.07.02-01.00.42:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2015.07.02-01.00.42:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2015.07.02-01.00.42:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Light01.uasset"
+[2015.07.02-01.00.42:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2015.07.02-01.00.42:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Light02.uasset"
+[2015.07.02-01.00.42:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2015.07.02-01.00.42:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Smoke01.uasset"
+[2015.07.02-01.00.42:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2015.07.02-01.00.42:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2015.07.02-01.00.42:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2015.07.02-01.00.42:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2015.07.02-01.00.42:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2015.07.02-01.00.43:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2015.07.02-01.00.43:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2015.07.02-01.00.43:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Steam01.uasset"
+[2015.07.02-01.00.43:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2015.07.02-01.00.43:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2015.07.02-01.00.43:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2015.07.02-01.00.43:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2015.07.02-01.00.43:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2015.07.02-01.00.43:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2015.07.02-01.00.43:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2015.07.02-01.00.43:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2015.07.02-01.00.43:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2015.07.02-01.00.43:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2015.07.02-01.00.43:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2015.07.02-01.00.43:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2015.07.02-01.00.43:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2015.07.02-01.00.43:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2015.07.02-01.00.43:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2015.07.02-01.00.43:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2015.07.02-01.00.43:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2015.07.02-01.00.45:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2015.07.02-01.00.45:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2015.07.02-01.00.45:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Maps/Minimal_Default.umap"
+[2015.07.02-01.00.45:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Maps/StarterMap.umap"
+[2015.07.02-01.00.45:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2015.07.02-01.00.45:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2015.07.02-01.00.45:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2015.07.02-01.00.45:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2015.07.02-01.00.45:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2015.07.02-01.00.45:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2015.07.02-01.00.45:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2015.07.02-01.00.45:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2015.07.02-01.00.45:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2015.07.02-01.00.45:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2015.07.02-01.00.45:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2015.07.02-01.00.45:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2015.07.02-01.00.45:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2015.07.02-01.00.45:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2015.07.02-01.00.45:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2015.07.02-01.00.45:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2015.07.02-01.00.45:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2015.07.02-01.00.45:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Glass.uasset"
+[2015.07.02-01.00.45:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2015.07.02-01.00.45:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2015.07.02-01.00.45:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2015.07.02-01.00.45:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2015.07.02-01.00.45:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2015.07.02-01.00.45:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2015.07.02-01.00.45:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2015.07.02-01.00.45:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2015.07.02-01.00.46:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2015.07.02-01.00.46:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2015.07.02-01.00.46:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2015.07.02-01.00.46:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2015.07.02-01.00.46:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2015.07.02-01.00.46:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2015.07.02-01.00.46:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2015.07.02-01.00.46:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2015.07.02-01.00.46:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2015.07.02-01.00.46:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2015.07.02-01.00.46:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2015.07.02-01.00.46:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2015.07.02-01.00.46:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2015.07.02-01.00.46:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2015.07.02-01.00.46:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2015.07.02-01.00.46:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2015.07.02-01.00.46:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2015.07.02-01.00.46:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2015.07.02-01.00.46:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Particles/P_Explosion.uasset"
+[2015.07.02-01.00.46:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Particles/P_Fire.uasset"
+[2015.07.02-01.00.46:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Particles/P_Smoke.uasset"
+[2015.07.02-01.00.46:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Particles/P_Sparks.uasset"
+[2015.07.02-01.00.46:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2015.07.02-01.00.46:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2015.07.02-01.00.46:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2015.07.02-01.00.46:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2015.07.02-01.00.46:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2015.07.02-01.00.47:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2015.07.02-01.00.47:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2015.07.02-01.00.47:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2015.07.02-01.00.47:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2015.07.02-01.00.47:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2015.07.02-01.00.47:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2015.07.02-01.00.47:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/MaterialSphere.uasset"
+[2015.07.02-01.00.47:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_Bush.uasset"
+[2015.07.02-01.00.47:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_Chair.uasset"
+[2015.07.02-01.00.47:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2015.07.02-01.00.47:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_Couch.uasset"
+[2015.07.02-01.00.47:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_Door.uasset"
+[2015.07.02-01.00.47:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2015.07.02-01.00.47:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2015.07.02-01.00.47:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2015.07.02-01.00.47:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2015.07.02-01.00.47:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2015.07.02-01.00.47:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2015.07.02-01.00.47:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2015.07.02-01.00.47:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_Rock.uasset"
+[2015.07.02-01.00.47:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_Shelf.uasset"
+[2015.07.02-01.00.47:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_Stairs.uasset"
+[2015.07.02-01.00.47:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_Statue.uasset"
+[2015.07.02-01.00.47:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_TableRound.uasset"
+[2015.07.02-01.00.47:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2015.07.02-01.00.47:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2015.07.02-01.00.47:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2015.07.02-01.00.47:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2015.07.02-01.00.47:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2015.07.02-01.00.47:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2015.07.02-01.00.47:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2015.07.02-01.00.47:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2015.07.02-01.00.47:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2015.07.02-01.00.47:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2015.07.02-01.00.48:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2015.07.02-01.00.48:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2015.07.02-01.00.48:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2015.07.02-01.00.48:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2015.07.02-01.00.48:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2015.07.02-01.00.48:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2015.07.02-01.00.48:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2015.07.02-01.00.48:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2015.07.02-01.00.48:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2015.07.02-01.00.48:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2015.07.02-01.00.48:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2015.07.02-01.00.48:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2015.07.02-01.00.48:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2015.07.02-01.00.48:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2015.07.02-01.00.48:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2015.07.02-01.00.48:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2015.07.02-01.00.48:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2015.07.02-01.00.48:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2015.07.02-01.00.48:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2015.07.02-01.00.48:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2015.07.02-01.00.48:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2015.07.02-01.00.48:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2015.07.02-01.00.48:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/Metal_Tile_2.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/Metal_Tile_2.uasset"
+[2015.07.02-01.00.48:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/Metal_Tile_2_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/Metal_Tile_2_N.uasset"
+[2015.07.02-01.00.48:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/Sky54a2048.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/Sky54a2048.uasset"
+[2015.07.02-01.00.48:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/Sky54a2048LDR.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/Sky54a2048LDR.uasset"
+[2015.07.02-01.00.48:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ArmorMetal01.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_ArmorMetal01.uasset"
+[2015.07.02-01.00.48:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset"
+[2015.07.02-01.00.48:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bark02_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Bark02_D.uasset"
+[2015.07.02-01.00.48:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bark02_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Bark02_N.uasset"
+[2015.07.02-01.00.48:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset"
+[2015.07.02-01.00.48:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset"
+[2015.07.02-01.00.48:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2015.07.02-01.00.48:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2015.07.02-01.00.48:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2015.07.02-01.00.49:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2015.07.02-01.00.49:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2015.07.02-01.00.49:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2015.07.02-01.00.49:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2015.07.02-01.00.49:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2015.07.02-01.00.49:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2015.07.02-01.00.49:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2015.07.02-01.00.49:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2015.07.02-01.00.49:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2015.07.02-01.00.50:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2015.07.02-01.00.50:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2015.07.02-01.00.50:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2015.07.02-01.00.50:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2015.07.02-01.00.50:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2015.07.02-01.00.50:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2015.07.02-01.00.50:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2015.07.02-01.00.50:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2015.07.02-01.00.50:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2015.07.02-01.00.50:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Cliff_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Cliff_M.uasset"
+[2015.07.02-01.00.50:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Cliff_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Cliff_N.uasset"
+[2015.07.02-01.00.50:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset"
+[2015.07.02-01.00.50:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset"
+[2015.07.02-01.00.50:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset"
+[2015.07.02-01.00.50:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset"
+[2015.07.02-01.00.50:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset"
+[2015.07.02-01.00.50:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2015.07.02-01.00.50:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2015.07.02-01.00.50:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2015.07.02-01.00.50:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2015.07.02-01.00.50:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2015.07.02-01.00.50:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2015.07.02-01.00.50:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2015.07.02-01.00.50:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2015.07.02-01.00.50:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Cobble_01_H.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Cobble_01_H.uasset"
+[2015.07.02-01.00.50:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete01_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete01_D.uasset"
+[2015.07.02-01.00.50:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete01_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete01_N.uasset"
+[2015.07.02-01.00.50:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_01_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_01_D.uasset"
+[2015.07.02-01.00.50:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_01_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_01_N.uasset"
+[2015.07.02-01.00.50:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_D.uasset"
+[2015.07.02-01.00.50:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Floor01.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_Floor01.uasset"
+[2015.07.02-01.00.50:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset"
+[2015.07.02-01.00.51:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2015.07.02-01.00.51:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_N.uasset"
+[2015.07.02-01.00.51:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2015.07.02-01.00.51:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2015.07.02-01.00.51:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2015.07.02-01.00.51:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2015.07.02-01.00.51:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2015.07.02-01.00.51:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2015.07.02-01.00.51:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2015.07.02-01.00.51:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2015.07.02-01.00.51:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Wall07.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_Wall07.uasset"
+[2015.07.02-01.00.51:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset"
+[2015.07.02-01.00.51:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset"
+[2015.07.02-01.00.51:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset"
+[2015.07.02-01.00.51:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset"
+[2015.07.02-01.00.51:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2015.07.02-01.00.51:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dirt_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Dirt_D.uasset"
+[2015.07.02-01.00.51:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dirt_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Dirt_N.uasset"
+[2015.07.02-01.00.51:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Door_M.uasset"
+[2015.07.02-01.00.51:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Door_N.uasset"
+[2015.07.02-01.00.51:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2015.07.02-01.00.51:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2015.07.02-01.00.52:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2015.07.02-01.00.52:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2015.07.02-01.00.52:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2015.07.02-01.00.52:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2015.07.02-01.00.52:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset"
+[2015.07.02-01.00.52:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset"
+[2015.07.02-01.00.52:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset"
+[2015.07.02-01.00.52:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset"
+[2015.07.02-01.00.52:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset"
+[2015.07.02-01.00.52:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset"
+[2015.07.02-01.00.52:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset"
+[2015.07.02-01.00.52:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset"
+[2015.07.02-01.00.52:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2015.07.02-01.00.52:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gravel_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Gravel_D.uasset"
+[2015.07.02-01.00.52:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gravel_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Gravel_N.uasset"
+[2015.07.02-01.00.52:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_01_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Ground_01_D.uasset"
+[2015.07.02-01.00.52:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_01_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Ground_01_N.uasset"
+[2015.07.02-01.00.52:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_02_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Ground_02_D.uasset"
+[2015.07.02-01.00.52:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_02_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Ground_02_N.uasset"
+[2015.07.02-01.00.52:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Detail_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Ground_Detail_N.uasset"
+[2015.07.02-01.00.52:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset"
+[2015.07.02-01.00.52:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset"
+[2015.07.02-01.00.52:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2015.07.02-01.00.52:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2015.07.02-01.00.52:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2015.07.02-01.00.52:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2015.07.02-01.00.52:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2015.07.02-01.00.52:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2015.07.02-01.00.53:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Noise_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Ground_Noise_N.uasset"
+[2015.07.02-01.00.53:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2015.07.02-01.00.53:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2015.07.02-01.00.53:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2015.07.02-01.00.53:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2015.07.02-01.00.53:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2015.07.02-01.00.53:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset"
+[2015.07.02-01.00.53:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset"
+[2015.07.02-01.00.53:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2015.07.02-01.00.53:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2015.07.02-01.00.53:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset"
+[2015.07.02-01.00.53:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset"
+[2015.07.02-01.00.53:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset"
+[2015.07.02-01.00.53:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset"
+[2015.07.02-01.00.53:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset"
+[2015.07.02-01.00.53:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset"
+[2015.07.02-01.00.53:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset"
+[2015.07.02-01.00.53:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset"
+[2015.07.02-01.00.53:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2015.07.02-01.00.53:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2015.07.02-01.00.53:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset"
+[2015.07.02-01.00.53:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset"
+[2015.07.02-01.00.54:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2015.07.02-01.00.54:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2015.07.02-01.00.54:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_PaintedMetal01.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_PaintedMetal01.uasset"
+[2015.07.02-01.00.54:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset"
+[2015.07.02-01.00.54:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset"
+[2015.07.02-01.00.54:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset"
+[2015.07.02-01.00.54:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_PatchyGrass_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_PatchyGrass_D.uasset"
+[2015.07.02-01.00.54:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_PatchyGrass_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_PatchyGrass_N.uasset"
+[2015.07.02-01.00.54:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2015.07.02-01.00.54:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2015.07.02-01.00.54:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2015.07.02-01.00.54:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rocky_01_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rocky_01_N.uasset"
+[2015.07.02-01.00.54:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_01_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_01_D.uasset"
+[2015.07.02-01.00.54:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_01_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_01_N.uasset"
+[2015.07.02-01.00.54:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_03_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_03_D.uasset"
+[2015.07.02-01.00.54:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_03_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_03_N.uasset"
+[2015.07.02-01.00.54:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_05_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_05_D.uasset"
+[2015.07.02-01.00.54:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_05_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_05_N.uasset"
+[2015.07.02-01.00.54:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_06_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_06_D.uasset"
+[2015.07.02-01.00.54:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_06_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_06_N.uasset"
+[2015.07.02-01.00.54:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_07b_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_07b_D.uasset"
+[2015.07.02-01.00.54:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_07_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_07_D.uasset"
+[2015.07.02-01.00.54:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_07_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_07_N.uasset"
+[2015.07.02-01.00.54:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_08_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_08_D.uasset"
+[2015.07.02-01.00.54:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_08_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_08_N.uasset"
+[2015.07.02-01.00.54:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_09_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_09_D.uasset"
+[2015.07.02-01.00.54:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_10_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_10_D.uasset"
+[2015.07.02-01.00.54:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_10_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_10_N.uasset"
+[2015.07.02-01.00.54:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_11b_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_11b_D.uasset"
+[2015.07.02-01.00.54:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2015.07.02-01.00.54:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2015.07.02-01.00.54:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset"
+[2015.07.02-01.00.54:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset"
+[2015.07.02-01.00.54:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset"
+[2015.07.02-01.00.54:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2015.07.02-01.00.54:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2015.07.02-01.00.55:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2015.07.02-01.00.55:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2015.07.02-01.00.55:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2015.07.02-01.00.55:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2015.07.02-01.00.55:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2015.07.02-01.00.55:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2015.07.02-01.00.55:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2015.07.02-01.00.55:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset"
+[2015.07.02-01.00.55:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Sky_Stars.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Sky_Stars.uasset"
+[2015.07.02-01.00.55:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2015.07.02-01.00.55:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2015.07.02-01.00.55:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2015.07.02-01.00.55:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2015.07.02-01.00.55:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2015.07.02-01.00.55:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Stone_Brick_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Stone_Brick_D.uasset"
+[2015.07.02-01.00.55:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Stone_Brick_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Stone_Brick_N.uasset"
+[2015.07.02-01.00.55:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2015.07.02-01.00.55:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2015.07.02-01.00.55:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2015.07.02-01.00.55:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2015.07.02-01.00.55:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2015.07.02-01.00.55:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2015.07.02-01.00.55:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2015.07.02-01.00.55:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2015.07.02-01.00.55:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset"
+[2015.07.02-01.00.55:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset"
+[2015.07.02-01.00.55:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_UNV_Concrete02.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_UNV_Concrete02.uasset"
+[2015.07.02-01.00.55:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset"
+[2015.07.02-01.00.55:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Water_M.uasset"
+[2015.07.02-01.00.56:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Water_N.uasset"
+[2015.07.02-01.00.56:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset"
+[2015.07.02-01.00.56:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset"
+[2015.07.02-01.00.56:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_a_d.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Wood_a_d.uasset"
+[2015.07.02-01.00.56:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_A_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Wood_A_N.uasset"
+[2015.07.02-01.00.56:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_A_S.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Wood_A_S.uasset"
+[2015.07.02-01.00.56:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2015.07.02-01.00.56:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2015.07.02-01.00.56:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2015.07.02-01.00.56:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2015.07.02-01.00.56:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2015.07.02-01.00.56:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2015.07.02-01.00.56:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2015.07.02-01.00.56:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2015.07.02-01.00.56:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2015.07.02-01.00.57:077][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.07.02-01.00.57:221][  0]LogSavePackage: Save=25.518156ms
+[2015.07.02-01.00.57:221][  0]LogSavePackage: Moving 'D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Saved/Floor_400x400A23B18AB41BEF554B962008C542D21F8.tmp' to 'D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.07.02-01.00.57:226][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.07.02-01.00.57:230][  0]Cmd: MAP LOAD FILE="D:/SprintTrader/Trunk/Projects/UnrealEngine/BlankProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.02-01.00.57:231][  0]LightingResults: New page: Lighting Build
+[2015.07.02-01.00.57:259][  0]MapCheck: New page: Map Check
+[2015.07.02-01.00.57:259][  0]LightingResults: New page: Lighting Build
+[2015.07.02-01.00.57:277][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DED6050B80
+[2015.07.02-01.00.59:941][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.02-01.01.00:016][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.02-01.01.00:070][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.02-01.01.00:159][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.705ms to complete.
+[2015.07.02-01.01.00:159][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.929
+[2015.07.02-01.01.00:381][  0]LogCollectionManager: Loaded 0 collections in 0.004422 seconds
+[2015.07.02-01.01.00:398][  0]LogContentBrowser: Native class hierarchy populated in 0.0170 seconds. Added 1792 classes and 301 folders.
+[2015.07.02-01.01.00:534][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2015.07.02-01.01.00:808][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.07.02-01.01.00:843][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2015.07.02-01.01.00:920][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.02-01.01.00:925][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.02-01.01.00:948][  0]LogLoad: Full Startup: 54.79 seconds (BP compile: 0.40 seconds)
+[2015.07.02-01.01.02:317][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.02-01.01.02:406][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.07.02-01.01.02:634][  0]LogRenderer: Reallocating scene render targets to support 1208x584 (Frame:3).
+[2015.07.02-01.01.04:004][ 70]LogAssetRegistry: Asset discovery search completed in 27.5076 seconds
+[2015.07.02-01.01.32:719][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2015.07.02-01.01.37:845][756]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.02-01.01.37:848][756]PIE: New page: PIE session: Minimal_Default (Jul 1, 2015, 5:01:37 PM)
+[2015.07.02-01.01.37:849][756]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.02-01.01.37:861][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011271s)
+[2015.07.02-01.01.37:861][756]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.02-01.01.37:862][756]LogPlayLevel: PIE: World Init took: (0.002650s)
+[2015.07.02-01.01.37:863][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014356s)
+[2015.07.02-01.01.37:948][756]LogInit: XAudio2 using 'HF255-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.02-01.01.37:955][756]LogInit: FAudioDevice initialized.
+[2015.07.02-01.01.38:018][756]LogWorld: Game class is 'GameMode'
+[2015.07.02-01.01.38:027][756]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.01-21.01.38
+[2015.07.02-01.01.38:027][756]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.02-01.01.38:028][756]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.02-01.01.38:028][756]LogWorld: Bringing up level for play took: 0.006249
+[2015.07.02-01.01.38:055][756]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.089
+[2015.07.02-01.01.52:951][413]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DECCA096C0
+[2015.07.02-01.01.59:770][920]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.02-01.02.00:526][974]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2015.07.02-01.02.03:412][189]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.02-01.02.03:762][212]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.02-01.02.06:149][371]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.02-01.02.06:350][371]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.02-01.02.55:772][145]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Basics/FeaturePacks.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.02-01.02.56:884][145]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/InstallingiTunesTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.02-01.02.56:926][145]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.02-01.03.20:070][ 53]LogEditorTransaction: Undo Modify Component(s)
+[2015.07.02-01.03.43:156][126]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.03.43:157][126]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Engine/Transient.World_3:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.03.43:175][126]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.07.02-01.03.43:202][126]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Engine/Transient.World_3:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.04.54:282][402]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.04.54:283][402]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Engine/Transient.World_3:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.04.54:283][402]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Engine/Transient.World_3:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.04.54:356][405]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.04.54:357][405]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Engine/Transient.World_3:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.04.54:357][405]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Engine/Transient.World_3:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.04.54:383][406]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.04.54:383][406]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Engine/Transient.World_3:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.04.54:384][406]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Engine/Transient.World_3:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.04.54:385][406]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.04.54:385][406]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Engine/Transient.World_3:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.04.54:386][406]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Engine/Transient.World_3:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.04.54:412][407]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.04.54:413][407]LogScript:Warning: Accessed None 'Sky Sphere mesh'
+	BP_Sky_Sphere_C /Engine/Transient.World_3:PersistentLevel.BP_Sky_Sphere_C_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:UserConstructionScript:0017
+[2015.07.02-01.05.54:815][805]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2015.07.02-01.06.24:071][404]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.02-01.06.24:092][404]LogPlayLevel: [PIE] Compiling BP_Sky_Sphere before PIE...
+[2015.07.02-01.06.24:229][404]LogBlueprint:Error: [compiler BP_Sky_Sphere] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.07.02-01.06.24:481][404]LogBlueprint:Warning: [compiler BP_Sky_Sphere] Warning [0378.32] Compile of BP_Sky_Sphere failed. 1 Fatal Issue(s) 0 Warning(s) [in 327 ms]
+[2015.07.02-01.06.24:482][404]LogBlueprint:Warning: [compiler BP_Sky_Sphere] Warning [0378.32] Compile of BP_Sky_Sphere failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.07.02-01.06.24:482][404]LogBlueprint:Warning: [compiler BP_Sky_Sphere] Warning [0378.32] Compile of BP_Sky_Sphere failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.07.02-01.06.24:482][404]LogBlueprint:Warning: [compiler BP_Sky_Sphere] Warning [0378.32] Compile of BP_Sky_Sphere failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.07.02-01.06.24:503][404]LogBlueprint:Warning: [compiler BP_Sky_Sphere] Warning [0378.35] Compile of BP_Sky_Sphere failed. 1 Fatal Issue(s) 4 Warning(s) [in 21 ms]
+[2015.07.02-01.06.24:503][404]LogBlueprint:Warning: [compiler BP_Sky_Sphere] Warning [0378.35] Compile of BP_Sky_Sphere failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.07.02-01.06.24:729][404]LogPlayLevel: PIE:  Blueprint regeneration took 658 ms (1 blueprints)
+[2015.07.02-01.06.29:281][404]BlueprintLog: Info Blueprint BP_Sky_Sphere failed to compile
+[2015.07.02-01.06.50:430][575]LogEditorTransaction: Undo Move Actors
+[2015.07.02-01.06.50:437][575]LogEditorTransaction: Undo Move Actors
+[2015.07.02-01.06.50:440][575]LogEditorTransaction: Undo Move Actors
+[2015.07.02-01.06.50:442][575]LogEditorTransaction: Undo Create Actors
+[2015.07.02-01.06.50:454][575]LogEditorTransaction: Undo Rename Variable
+[2015.07.02-01.06.50:458][575]LogEditorTransaction: Undo Edit Zenith Color
+[2015.07.02-01.06.50:459][575]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2015.07.02-01.06.50:459][575]LogEditorTransaction: Undo Remove Components
+[2015.07.02-01.06.50:489][575]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.07.02-01.06.50:489][575]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.07.02-01.06.50:490][575]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.07.02-01.06.50:490][575]LogEditorTransaction: Undo Clicking on Actors
+[2015.07.02-01.06.50:505][575]LogEditorTransaction: Undo Clicking on Actors
+[2015.07.02-01.06.50:515][575]LogEditorTransaction: Undo Clicking on Actors
+[2015.07.02-01.06.53:997][769]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.02-01.06.54:018][769]LogPlayLevel: [PIE] Compiling BP_Sky_Sphere before PIE...
+[2015.07.02-01.06.54:346][769]LogPlayLevel: PIE:  Blueprint regeneration took 350 ms (1 blueprints)
+[2015.07.02-01.06.54:346][769]PIE: New page: PIE session: Minimal_Default (Jul 1, 2015, 5:06:54 PM)
+[2015.07.02-01.06.54:347][769]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.02-01.06.54:360][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012512s)
+[2015.07.02-01.06.54:361][769]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.02-01.06.54:362][769]LogPlayLevel: PIE: World Init took: (0.002586s)
+[2015.07.02-01.06.54:363][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015480s)
+[2015.07.02-01.06.54:423][769]LogInit: XAudio2 using 'HF255-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.02-01.06.54:429][769]LogInit: FAudioDevice initialized.
+[2015.07.02-01.06.54:471][769]LogWorld: Game class is 'GameMode'
+[2015.07.02-01.06.54:479][769]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.01-21.06.54
+[2015.07.02-01.06.54:479][769]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.02-01.06.54:480][769]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.02-01.06.54:480][769]LogWorld: Bringing up level for play took: 0.006213
+[2015.07.02-01.06.54:485][769]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.481
+[2015.07.02-01.06.56:722][949]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DEC7A7F880
+[2015.07.02-01.07.26:032][628]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.07.02-01.07.28:061][744]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.07.02-01.07.39:692][419]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.02-01.07.39:692][419]PIE: New page: PIE session: Minimal_Default (Jul 1, 2015, 5:07:39 PM)
+[2015.07.02-01.07.39:693][419]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.02-01.07.39:705][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011838s)
+[2015.07.02-01.07.39:706][419]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.02-01.07.39:708][419]LogPlayLevel: PIE: World Init took: (0.002676s)
+[2015.07.02-01.07.39:708][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014950s)
+[2015.07.02-01.07.39:744][419]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DEC10A8180
+[2015.07.02-01.07.39:806][419]LogInit: XAudio2 using 'HF255-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.02-01.07.39:812][419]LogInit: FAudioDevice initialized.
+[2015.07.02-01.07.39:853][419]LogWorld: Game class is 'GameMode'
+[2015.07.02-01.07.39:862][419]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.01-21.07.39
+[2015.07.02-01.07.39:862][419]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.02-01.07.39:862][419]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.02-01.07.39:863][419]LogWorld: Bringing up level for play took: 0.006921
+[2015.07.02-01.07.39:867][419]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.902
+[2015.07.02-01.07.49:234][187]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DEC7AC6520
+[2015.07.02-01.07.54:018][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2015.07.02-01.08.01:397][894]Cmd: DELETE
+[2015.07.02-01.08.01:397][894]Cmd: ACTOR DELETE
+[2015.07.02-01.08.01:416][894]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.07.02-01.08.01:433][894]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.07.02-01.08.01:451][894]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.07.02-01.08.01:467][894]LogEditorActor: Deleted Actor: Blueprint_CeilingLight_C
+[2015.07.02-01.08.01:485][894]LogEditorActor: Deleted Actor: Blueprint_WallSconce_C
+[2015.07.02-01.08.01:550][894]LogEditorActor: Deleted 5 Actors (0.139 secs)
+[2015.07.02-01.08.03:878][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.07.02-01.08.04:473][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2015.07.02-01.08.05:598][182]Cmd: DELETE
+[2015.07.02-01.08.05:598][182]Cmd: ACTOR DELETE
+[2015.07.02-01.08.05:599][182]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.07.02-01.08.05:665][182]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2015.07.02-01.08.06:176][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.07.02-01.08.06:367][231]Cmd: DELETE
+[2015.07.02-01.08.06:367][231]Cmd: ACTOR DELETE
+[2015.07.02-01.08.06:367][231]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.07.02-01.08.06:433][231]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2015.07.02-01.08.08:066][366]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.07.02-01.08.08:863][411]Cmd: DELETE
+[2015.07.02-01.08.08:863][411]Cmd: ACTOR DELETE
+[2015.07.02-01.08.08:863][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.07.02-01.08.08:928][411]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2015.07.02-01.08.09:603][466]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (Starter_Background_Cue)
+[2015.07.02-01.08.10:436][512]Cmd: DELETE
+[2015.07.02-01.08.10:436][512]Cmd: ACTOR DELETE
+[2015.07.02-01.08.10:437][512]LogEditorActor: Deleted Actor: AmbientSound
+[2015.07.02-01.08.10:501][512]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2015.07.02-01.08.11:144][564]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture10)
+[2015.07.02-01.08.11:264][567]Cmd: DELETE
+[2015.07.02-01.08.11:265][567]Cmd: ACTOR DELETE
+[2015.07.02-01.08.11:265][567]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2015.07.02-01.08.11:329][567]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2015.07.02-01.08.12:086][629]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2015.07.02-01.08.13:110][687]Cmd: DELETE
+[2015.07.02-01.08.13:110][687]Cmd: ACTOR DELETE
+[2015.07.02-01.08.13:111][687]LogEditorActor: Deleted Actor: AtmosphericFog
+[2015.07.02-01.08.13:176][687]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2015.07.02-01.08.14:071][761]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2015.07.02-01.08.14:378][774]Cmd: DELETE
+[2015.07.02-01.08.14:378][774]Cmd: ACTOR DELETE
+[2015.07.02-01.08.18:009][774]LogEditorActor: Deleted 0 Actors (3.631 secs)
+[2015.07.02-01.08.18:714][815]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.07.02-01.08.19:577][867]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.02-01.08.20:754][935]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.02-01.08.22:360][ 32]Cmd: ACTOR SELECT ALL
+[2015.07.02-01.09.09:711][ 93]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.02-01.09.09:711][ 93]PIE: New page: PIE session: Minimal_Default (Jul 1, 2015, 5:09:09 PM)
+[2015.07.02-01.09.09:712][ 93]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.07.02-01.09.09:714][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003072s)
+[2015.07.02-01.09.09:715][ 93]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.07.02-01.09.09:716][ 93]LogPlayLevel: PIE: World Init took: (0.002098s)
+[2015.07.02-01.09.09:716][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005465s)
+[2015.07.02-01.09.09:791][ 93]LogInit: XAudio2 using 'HF255-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.02-01.09.09:796][ 93]LogInit: FAudioDevice initialized.
+[2015.07.02-01.09.09:841][ 93]LogWorld: Game class is 'GameMode'
+[2015.07.02-01.09.09:846][ 93]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.07.01-21.09.09
+[2015.07.02-01.09.09:847][ 93]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.02-01.09.09:847][ 93]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.02-01.09.09:848][ 93]LogWorld: Bringing up level for play took: 0.003584
+[2015.07.02-01.09.09:852][ 93]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.887
+[2015.07.02-01.09.15:875][609]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DEDC1CB9C0
+[2015.07.02-01.09.15:916][609]LogActorComponent: ReregisterComponent: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Starter_Background_Cue_2.AudioComponent0) Not currently registered. Aborting.
+[2015.07.02-01.09.37:429][932]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.07.02-01.09.37:520][932]LogCrashTracker: 
+
+
+[2015.07.02-01.10.24:549][932]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.02-01.10.24:594][932]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.02-01.10.24:638][932]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.02-01.10.24:683][932]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.02-01.10.24:727][932]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.02-01.10.25:242][932]LogCrashTracker: 
+
+
+[2015.07.02-01.10.25:243][932]LogWindows: === Critical error: ===
+Assertion failed: SCSNode [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Editor\UnrealEd\Private\Editor.cpp] [Line: 777] 
+
+
+
+KERNELBASE.dll {0x00007fff9de78b9c} + 0 bytes
+UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() {0x00007fff79aa77df} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FOutputDevice::Logf__VA() {0x00007fff79960cd8} + 159 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::AssertFailed() {0x00007fff79931a92} + 65 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!EditorUtilities::FindMatchingComponentInstance<TInlineAllocator<24,FDefaultAllocator> >() {0x00007fff7134db51} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!EditorUtilities::CopyActorProperties() {0x00007fff713a123b} + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Kismet.dll!SSCSEditor::OnGetApplyChangesToBlueprintTooltip() {0x00007fff6fe38cbf} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Kismet.dll!TMemberFunctionCaller<SSCSEditor,FText (__cdecl SSCSEditor::*)(void)const __ptr64>::operator()<>() {0x00007fff6fd3c120} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Kismet.dll!TTupleImpl<TIntegerSequence<> >::ApplyAfter_ExplicitReturnType<FText,TMemberFunctionCaller<SSCSEditor,FText (__cdecl SSCSEditor::*)(void)const __ptr64> >() {0x00007fff6fd400c9} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<1,SSCSEditor,0,FText __cdecl(void)>::Execute() {0x00007fff6fde43c9} + 36 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!TBaseDelegate<FText>::Execute() {0x00007fff78d52a9a} + 6 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!TAttribute<FText>::Get() {0x00007fff78d5afa8} + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SToolTip::IsEmpty() {0x00007fff78e50bf2} + 30 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::UpdateToolTip() {0x00007fff78dbeb81} + 20 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseMoveEvent() {0x00007fff78d98ad8} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnMouseMove() {0x00007fff78d85b51} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007fff79a9d131} + 10 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007fff79a845c1} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007fff79a9e99f} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007fff79a7e1aa} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007fffa075250d} + 0 bytes
+USER32.dll {0x00007fffa0752367} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007fff79a9fd56} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff68fcb3c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff68fca49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff68fca4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff68fcb65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff68fcb75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007fff9fd513d2} + 0 bytes
+ntdll.dll {0x00007fffa0a85444} + 0 bytes
+ntdll.dll {0x00007fffa0a85444} + 0 bytes
+
